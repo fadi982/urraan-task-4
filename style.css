@@ -1,78 +1,196 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-    border: 2.3rem solid grey;
-    border-top: 0px;
-    border-bottom: 0px;
-    height: 110vw;
-    font-family: Arial, Helvetica, sans-serif;
-
-
+  font-family: Arial, Helvetica, sans-serif;
+   border: 40px solid #555555;
+  color: #333333;
+  line-height: 1.2;
+  border-top: 0px;
+  border-bottom: 0px;
+  height: 150vh;
+  
 }
-/* .container{
+.logo{
+    height: 50%;
+}
+.logo img{
+    width:130%;
    
+}
+
+.site-header{
+    display: flex;
+    gap: 420px;
+   
+}
+
+.contact{
+    margin-top: 20px;
+    
+}
+ h3{
+    font-size: 1.8rem;
+    color: green;
+}
+h2{
+    font-size: 3rem;
+    letter-spacing: 0.9;
+    font-weight: 800;
+}
+p{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+hr{
+    width: 30%;
+    height: 5px;
+    background-color: green;
+}
+/* .nav-bar{
+  position: relative;
+  bottom: 10rem;
 } */
 
-.headlogo img {
-   
-    width: 130%;
-    height: 110%;
-    
-   
-
-}
-
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25em;
-}
-
-hr {
-    width: 77%;
-    height: 3%;
+nav{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: darkgreen;
-    margin-left: 11%;
+    font-size: 22px;
+    height: 65px;
+    gap:10px;
+  
 
-}
-
-.call h3 {
-    color: darkgreen;
    
-    font-size: 1.9rem;
-    margin-left: 11%;
-    margin-top: 9%;
-}
-
-.call h2 {
-    font-size: 2.7rem;
-    margin-left: 11%;
-    letter-spacing: 18%;
-    font-weight: 800;
-
-}
-
-.call p {
-    font-size: 1.2rem;
-    margin-left: 11%;
-    letter-spacing: 13%;
-    font-weight: 700;
-    color: darkgreen;
-
-}
-
-navbar a{
-    background-color: rgb(232, 38, 38);
-   
+    justify-content: end;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8%;
-    margin-top: 2%;
-    height: 50%;
-    margin-left: 5rem;
 }
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-top: 18px;
+    gap:10px;
+    padding-right: 25px;
+    font-weight: 700;
+    
+}
+.pic1 img{
+    padding-left: 45px;
+    padding-top: 30px;
+    height: 100%;
+    width: 140%;
+    
+  
+
+}
+.both{
+  display: flex;
+  gap: 160px;
+    
+}
+.pic2{
+    background-image: url(./src/form_bg.jpg);
+    background-size: cover;
+    background-position: center;
+   margin-left:80px;
+   width: 42%;
+   margin-top: 30px;
+   box-shadow: 10px 10px 30px black;
+   
+}
+.pic2 h1{
+    background-color: red;
+    width: 210px;
+    
+}
+.pic2 h4{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: end; 
+    margin-right: 140px;
+    margin-top: -22px;
+    
+}
+.pic2 p{
+    font-size: 1.4rem;
+    letter-spacing: 0rem;
+    margin-left: 30px;
+}
+
+.screen {
+display:flex; 
+   
+}
+.tex h5{
+    margin-bottom: 1rem;
+    margin-left: 35px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+ 
+
+input{
+    height: 1.8rem;
+    width: 13rem;
+   padding-bottom: 1.4rem;
+   margin-left: 20px;
+   
+
+}
+.pic3 img{
+    height: 55px;
+    margin-left: 20px;
+    margin-top: 40px;
+    transform: rotate(15deg) ;
+}
+.area textarea{
+    height: 80px;
+    width: 500px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.text1 button{
+    margin-top: 50px;
+   
+   letter-spacing: 0rem;
+   font-size: 25px;
+   background-color: darkgreen;
+   position: relative;
+   left: 15rem;
+   color: white;
+   height: 50px;
+   width: 300px;
+   margin-top: 20px;
+}
+.text2 p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 2rem;
+   
+}
+.main{
+    display: flex;
+}
+.text3 h2{
+    font-size:25px;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.text3 h3{
+    font-size: 20px;
+    margin-left: 60px;
+}
+.text3 p{
+    font-size: 18px;
+    margin-left: 60px;
+    letter-spacing: 0rem;
+}
+.pic4 img{
+    margin-top: 200px;
+    height: 135px;
+    margin-left: -18px;
+    margin-top: 160px;
+}
+
