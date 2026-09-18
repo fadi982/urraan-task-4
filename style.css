@@ -11,25 +11,19 @@ body {
   border-top: 0px;
   border-bottom: 0px;
   height: 320vh;
-  
 }
 .logo{
     height: 50%;
 }
 .logo img{
-    width:130%;
-   
+    width:130%;  
 }
-
 .site-header{
     display: flex;
-    gap: 420px;
-   
+    gap: 420px; 
 }
-
 .contact{
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
  h3{
     font-size: 1.8rem;
@@ -49,20 +43,12 @@ hr{
     height: 5px;
     background-color: green;
 }
-/* .nav-bar{
-  position: relative;
-  bottom: 10rem;
-} */
-
 nav{
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkgreen;
     font-size: 22px;
     height: 65px;
     gap:10px;
-  
-
-   
     justify-content: end;
     display: flex;
 }
@@ -72,22 +58,17 @@ nav a{
     margin-top: 18px;
     gap:10px;
     padding-right: 25px;
-    font-weight: 700;
-    
+    font-weight: 700;   
 }
 .pic1 img{
     padding-left: 45px;
     padding-top: 30px;
     height: 100%;
     width: 140%;
-    
-  
-
 }
 .both{
   display: flex;
-  gap: 160px;
-    
+  gap: 160px;    
 }
 .pic2{
     background-image: url(./src/form_bg.jpg);
@@ -96,31 +77,26 @@ nav a{
    margin-left:80px;
    width: 42%;
    margin-top: 30px;
-   box-shadow: 10px 10px 30px black;
-   
+   box-shadow: 10px 10px 30px black;   
 }
 .pic2 h1{
     background-color: red;
-    width: 210px;
-    
+    width: 210px;   
 }
 .pic2 h4{
     font-size: 1.6rem;
     display: flex;
     justify-content: end; 
     margin-right: 140px;
-    margin-top: -22px;
-    
+    margin-top: -22px;   
 }
 .pic2 p{
     font-size: 1.4rem;
     letter-spacing: 0rem;
     margin-left: 30px;
 }
-
 .screen {
-display:flex; 
-   
+display:flex;   
 }
 .tex h5{
     margin-bottom: 1rem;
@@ -128,15 +104,11 @@ display:flex;
     font-size: 1rem;
     margin-top: 10px;
 }
- 
-
 input{
     height: 1.8rem;
     width: 13rem;
    padding-bottom: 1.4rem;
    margin-left: 20px;
-   
-
 }
 .pic3 img{
     height: 55px;
@@ -152,7 +124,6 @@ input{
 }
 .text1 button{
     margin-top: 50px;
-   
    letter-spacing: 0rem;
    font-size: 25px;
    background-color: darkgreen;
@@ -167,8 +138,7 @@ input{
     font-size: 15px;
     margin-bottom: 20px;
     position: relative;
-    bottom: 2rem;
-   
+    bottom: 2rem;   
 }
 .main{
     display: flex;
@@ -208,21 +178,17 @@ input{
   margin-bottom: 25px;
     margin-left: -196px;
     height: 2px;
-    width: 240px;
-    
+    width: 240px;  
 }
 .text5 h2{
     font-size:25px;
-    
     margin-top: 80px;
     margin-left: 27px;
-
 }
 .text5 p{
      font-size: 19px;
     margin-left: 27px;
     letter-spacing: 0rem;
-
 }
 .text6 button{
     margin-top: 12px;
@@ -240,22 +206,18 @@ input{
     width: 240px;
     position: relative;
     top: -4.1rem;
-    left: 1.4rem;
-    
+    left: 1.4rem;   
 }
 
 .text7 h2{
     font-size: 24px;
     margin-top: -16px;
-    
     margin-left: 19px;
-
 }
 .text7 p{
     font-size: 17px;
     margin-left: 22px;
     letter-spacing: 0rem;
-
 }
 .text8 button{
     margin-top: -7px;
@@ -269,15 +231,14 @@ input{
     top: -0.3rem;
 }
 .line4 .line44 {
-      position: relative;
+    position: relative;
     bottom: 3rem;
     height: 2px;
     width: 240px;
-    left: 1.4rem;
-    
+    left: 1.4rem;    
 }
 .pic5 img{
-        margin-top: -71px;
+    margin-top: -71px;
     position: relative;
     left: 19rem;
     height: 107px;
@@ -287,18 +248,10 @@ input{
     margin-top: -78px;
     height: 114px;
 }
-
-
-
 .blog{
-  
     border-left: 1px solid black;
      border-right: 1px solid black;
-
-
     width: 520px;
-   
-
 }
 .main2{
     display: flex;
@@ -311,12 +264,11 @@ input{
 }
 .text9 h2{
     font-size: 25px;
-    
     margin-top: 267px;
     margin-left: -329px;
 }
 .text9 p{
-        font-size: 18px;
+    font-size: 18px;
     margin-left: -329px;
     letter-spacing: 0rem;
 }
@@ -328,7 +280,6 @@ input{
     width: 140px;
     background-color: darkgreen;
     color: white;
-
 }
 .foot{
     display: flex;
@@ -337,9 +288,8 @@ input{
     margin-left: 60px;
 }
 .pic9 img{
-        margin-top: 46px;
+    margin-top: 46px;
     width: 100%;
-
 }
 .left h2{
     font-size: 25px;
@@ -349,32 +299,21 @@ input{
     font-size: 25px;
     margin-left: 117px;
     color: darkgreen;
-
 }
 .right h2{
     font-size: 20px;
     margin-right: 55px;
-   
     color: darkgreen;
-
 }
-
-
-
 .box1  {
-    
      background-color:gray;
      height: 80px;
      width: 300px;
       margin-top: 20px;
-    
-
 }
 .box1 h2{
     font-size: 25px;
     color: white;
-   
-
 }
 .box1 h3{
     font-size: 15px;
@@ -388,19 +327,15 @@ input{
     margin-left: -11px;
     margin-bottom: 160px;
     position: relative;
-    top: -4.88rem;
-  
-    
+    top: -4.88rem;   
 }
 .middle p{
     letter-spacing: 1px;
     font-size: 18px;
     padding: 33px;
-
 }
 .right p{
     letter-spacing: 1px;
-
 }
 .right button{
     height: 30px;
@@ -409,31 +344,26 @@ input{
     background-color: darkolivegreen;
     color: white;
     margin-top: -22px;
-        margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 .right .rg{
     margin-left:-2px;
     height: 2px;
-    width: 220px;
-    
+    width: 220px;   
 }
 .piclast{
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 .piclast img{
-    height: 150px;
-    
+    height: 150px;   
 }
 .lastpic {
     margin-left: 25px;
-    margin-top: 30px;
-    
+    margin-top: 30px;    
 }
 .lastpic img{
     height: 170;
 }
-
 .logo2 p{
     margin-left: 55px;
     font-weight: 700;
@@ -442,13 +372,251 @@ input{
 .logo2 img{
     margin-left: 17px;
 }
-
 .follow h2{
     margin-top: 40px;
 }
 .follow h3{
     margin-top: 60px;
     color: #555555;
-
     margin-left: 90px;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: white;
+    }
+    /* .logo{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+} */
+.logo img{
+   max-width: 94%;
+        height: auto;
+        margin-right: 19.6rem;
+        display: inline-block;
+}
+.site-header{
+    display: flex;
+    gap: 420px; 
+}
+.contact{
+    margin-top: 20px; 
+    
+}
+ h3{
+  
+        font-size: 1rem;
+        color: green;
+        margin-left: -73rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 4rem;
+}
+h2{
+    font-size: 1rem;
+        font-weight: 800;
+        margin-left: -40rem;
+}
+p{
+  font-size: 0.9rem;
+        letter-spacing: 0rem;
+        margin-left: -43.1rem;
+}
+hr{
+    width: 30%;
+    height: 5px;
+    background-color: green;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgreen;
+    font-size: 7px;
+    height: 42px;
+    gap: 0px;
+    justify-content: end;
+    display: flex;
+    width: 18.5rem;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-top: 18px;
+    gap:10px;
+    padding-right: 6px;
+    font-weight: 200;   
+}
+
+.pic1 img{
+   padding-left: 27px;
+        padding-top: 17px;
+        height: 92%;
+        width: 103%;
+        
+        margin-left: -1rem;
+}
+.both{
+  display: flex;
+  flex-direction: column;
+  gap: 160px;    
+}
+.pic2{
+           background-image: url(./src/form_bg.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-left: 10px;
+        width: 93%;
+        margin-top: -132px;
+        /* box-shadow: 10px 10px 30px black;    */
+}
+
+.pic2 h1{
+   background-color: red;
+        width: 108px;
+        font-size: 1rem;  
+}
+.pic2 h4{
+  font-size: 0.7rem;
+        display: flex;
+        justify-content: end;
+        margin-right: 76px;
+        margin-top: 0px; 
+}
+.pic2 p{
+    font-size: 0.6rem;
+        letter-spacing: 0rem;
+        margin-left: 30px;
+}
+.screen {
+display:flex;   
+}
+.tex h5{
+           margin-bottom: 0.1rem;
+        margin-left: 11px;
+        font-size: 0.6rem;
+        margin-top: 10px;
+}
+input{
+   height: 1rem;
+        width: 9rem;
+        padding-bottom: 0.4rem;
+        margin-left: 9px;
+}
+.pic3 img{
+           height: 19px;
+        margin-left: 9px;
+        margin-top: 32px;
+        transform: rotate(15deg);
+}
+.area textarea{
+   height: 34px;
+        width: 223px;
+        margin-left: 25px;
+        margin-top: 20px;
+}
+.text1 button{
+   letter-spacing: 0rem;
+        font-size: 0.5rem;
+        background-color: darkgreen;
+        position: relative;
+        left: 10rem;
+        color: white;
+        height: 20px;
+        width: 100px;
+        margin-top: 19px;
+}
+.text2 p{
+   font-size: 0.6rem;
+        margin-bottom: -5px;
+        position: relative;
+        bottom: 1rem;  
+        margin-left: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.text3 h2{
+            font-size: 1rem;
+        margin-left: 12px;
+        margin-top: 22px;
+}
+.text3 h3{
+    font-size: 0.9rem;
+        margin-left: -93px;
+        margin-top: -0.8rem;
+}
+.text3 p{
+           font-size: 12px;
+        margin-left: 21px;
+        letter-spacing: 0rem;
+        margin-top: -0.6rem;
+}
+.pic4 img{
+    margin-top: -100px;
+        height: 84px;
+        margin-left: 189px;
+        margin-bottom: 99px;
+}
+.text4 button{
+    margin-top: -35px;
+        height: 26px;
+        width: 112px;
+        margin-left: 132px;
+        background-color: darkgreen;
+        color: white;
+        font-size: 13px;
+        position: relative;
+        top: -4.4rem;
+}
+ .text4 .line22{
+ margin-bottom: 7rem;
+        margin-left: 87px;
+        height: 2px;
+        width: 195px;
+        margin-top: -8.4rem;
+}
+.text5 h2{
+   font-size: 1rem;
+        margin-top: -81px;
+        margin-left: 18px;
+}
+.text5 p{
+    font-size: 12px;
+        margin-left: 21px;
+        letter-spacing: 0rem;
+        margin-top: -16px;
+}
+.text6 button{
+    margin-top: 12px;
+    height: 30px;
+    width: 140px;
+    margin-left: 89px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -1.4rem;
+}
+ .line2 .line33 {
+      height: 2px;
+    width: 240px;
+    position: relative;
+    top: -4.1rem;
+    left: 1.4rem;   
+}
+
+.text7 h2{
+    font-size: 24px;
+    margin-top: -16px;
+    margin-left: 19px;
+}
+.text7 p{
+    font-size: 17px;
+    margin-left: 22px;
+    letter-spacing: 0rem;
+}
+    
 }
