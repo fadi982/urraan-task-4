@@ -1,169 +1,199 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-   border: 40px solid #555555;
-  color: #333333;
-  line-height: 1.2;
-  border-top: 0px;
-  border-bottom: 0px;
-  height: 320vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 40px solid #555555;
+    color: #333333;
+    line-height: 1.2;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 320vh;
 }
-.logo{
+
+.logo {
     height: 50%;
 }
-.logo img{
-    width:130%;  
+
+.logo img {
+    width: 130%;
 }
-.site-header{
+
+.site-header {
     display: flex;
-    gap: 420px; 
+    gap: 420px;
 }
-.contact{
-    margin-top: 20px;  
+
+.contact {
+    margin-top: 20px;
 }
- h3{
+
+h3 {
     font-size: 1.8rem;
     color: green;
 }
-h2{
+
+h2 {
     font-size: 3rem;
     letter-spacing: 0.9;
     font-weight: 800;
 }
-p{
+
+p {
     font-size: 1.2rem;
     letter-spacing: 0.2rem;
 }
-hr{
+
+hr {
     width: 30%;
     height: 5px;
     background-color: green;
 }
-nav{
+
+nav {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkgreen;
     font-size: 22px;
     height: 65px;
-    gap:10px;
+    gap: 10px;
     justify-content: end;
     display: flex;
 }
-nav a{
+
+nav a {
     color: white;
     text-decoration: none;
     margin-top: 18px;
-    gap:10px;
+    gap: 10px;
     padding-right: 25px;
-    font-weight: 700;   
+    font-weight: 700;
 }
-.pic1 img{
+
+.pic1 img {
     padding-left: 45px;
     padding-top: 30px;
     height: 100%;
     width: 140%;
 }
-.both{
-  display: flex;
-  gap: 160px;    
+
+.both {
+    display: flex;
+    gap: 160px;
 }
-.pic2{
+
+.pic2 {
     background-image: url(./src/form_bg.jpg);
     background-size: cover;
     background-position: center;
-   margin-left:80px;
-   width: 42%;
-   margin-top: 30px;
-   box-shadow: 10px 10px 30px black;   
+    margin-left: 80px;
+    width: 42%;
+    margin-top: 30px;
+    box-shadow: 10px 10px 30px black;
 }
-.pic2 h1{
+
+.pic2 h1 {
     background-color: red;
-    width: 210px;   
+    width: 210px;
 }
-.pic2 h4{
+
+.pic2 h4 {
     font-size: 1.6rem;
     display: flex;
-    justify-content: end; 
+    justify-content: end;
     margin-right: 140px;
-    margin-top: -22px;   
+    margin-top: -22px;
 }
-.pic2 p{
+
+.pic2 p {
     font-size: 1.4rem;
     letter-spacing: 0rem;
     margin-left: 30px;
 }
+
 .screen {
-display:flex;   
+    display: flex;
 }
-.tex h5{
+
+.tex h5 {
     margin-bottom: 1rem;
     margin-left: 35px;
     font-size: 1rem;
     margin-top: 10px;
 }
-input{
+
+input {
     height: 1.8rem;
     width: 13rem;
-   padding-bottom: 1.4rem;
-   margin-left: 20px;
+    padding-bottom: 1.4rem;
+    margin-left: 20px;
 }
-.pic3 img{
+
+.pic3 img {
     height: 55px;
     margin-left: 20px;
     margin-top: 40px;
-    transform: rotate(15deg) ;
+    transform: rotate(15deg);
 }
-.area textarea{
+
+.area textarea {
     height: 80px;
     width: 500px;
     margin-left: 45px;
     margin-top: 20px;
 }
-.text1 button{
+
+.text1 button {
     margin-top: 50px;
-   letter-spacing: 0rem;
-   font-size: 25px;
-   background-color: darkgreen;
-   position: relative;
-   left: 15rem;
-   color: white;
-   height: 50px;
-   width: 300px;
-   margin-top: 20px;
+    letter-spacing: 0rem;
+    font-size: 25px;
+    background-color: darkgreen;
+    position: relative;
+    left: 15rem;
+    color: white;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
 }
-.text2 p{
+
+.text2 p {
     font-size: 15px;
     margin-bottom: 20px;
     position: relative;
-    bottom: 2rem;   
+    bottom: 2rem;
 }
-.main{
+
+.main {
     display: flex;
 }
-.text3 h2{
-    font-size:25px;
+
+.text3 h2 {
+    font-size: 25px;
     margin-left: 60px;
     margin-top: 80px;
 }
-.text3 h3{
+
+.text3 h3 {
     font-size: 20px;
     margin-left: 60px;
 }
-.text3 p{
+
+.text3 p {
     font-size: 18px;
     margin-left: 60px;
     letter-spacing: 0rem;
 }
-.pic4 img{
+
+.pic4 img {
     margin-top: 200px;
     height: 135px;
     margin-left: -18px;
     margin-top: 160px;
 }
-.text4 button{
+
+.text4 button {
     margin-top: 350px;
     height: 30px;
     width: 150px;
@@ -174,23 +204,27 @@ input{
     position: relative;
     top: -0.3rem;
 }
- .text4 .line22{
-  margin-bottom: 25px;
+
+.text4 .line22 {
+    margin-bottom: 25px;
     margin-left: -196px;
     height: 2px;
-    width: 240px;  
+    width: 240px;
 }
-.text5 h2{
-    font-size:25px;
+
+.text5 h2 {
+    font-size: 25px;
     margin-top: 80px;
     margin-left: 27px;
 }
-.text5 p{
-     font-size: 19px;
+
+.text5 p {
+    font-size: 19px;
     margin-left: 27px;
     letter-spacing: 0rem;
 }
-.text6 button{
+
+.text6 button {
     margin-top: 12px;
     height: 30px;
     width: 140px;
@@ -201,25 +235,28 @@ input{
     position: relative;
     top: -1.4rem;
 }
- .line2 .line33 {
-      height: 2px;
+
+.line2 .line33 {
+    height: 2px;
     width: 240px;
     position: relative;
     top: -4.1rem;
-    left: 1.4rem;   
+    left: 1.4rem;
 }
 
-.text7 h2{
+.text7 h2 {
     font-size: 24px;
     margin-top: -16px;
     margin-left: 19px;
 }
-.text7 p{
+
+.text7 p {
     font-size: 17px;
     margin-left: 22px;
     letter-spacing: 0rem;
 }
-.text8 button{
+
+.text8 button {
     margin-top: -7px;
     height: 30px;
     width: 140px;
@@ -230,49 +267,58 @@ input{
     position: relative;
     top: -0.3rem;
 }
+
 .line4 .line44 {
     position: relative;
     bottom: 3rem;
     height: 2px;
     width: 240px;
-    left: 1.4rem;    
+    left: 1.4rem;
 }
-.pic5 img{
+
+.pic5 img {
     margin-top: -71px;
     position: relative;
     left: 19rem;
     height: 107px;
 }
-.pic6 img{
-        margin-left: 298px;
+
+.pic6 img {
+    margin-left: 298px;
     margin-top: -78px;
     height: 114px;
 }
-.blog{
+
+.blog {
     border-left: 1px solid black;
-     border-right: 1px solid black;
+    border-right: 1px solid black;
     width: 520px;
 }
-.main2{
+
+.main2 {
     display: flex;
     margin-left: 55px;
     margin-top: 130px;
-   gap: 30px;
+    gap: 30px;
 }
-.main2 img{
+
+.main2 img {
     height: 120px;
 }
-.text9 h2{
+
+.text9 h2 {
     font-size: 25px;
     margin-top: 267px;
     margin-left: -329px;
 }
-.text9 p{
+
+.text9 p {
     font-size: 18px;
     margin-left: -329px;
     letter-spacing: 0rem;
 }
-.click button{
+
+.click button {
     margin-top: 393px;
     font-size: 18px;
     margin-left: -116px;
@@ -281,63 +327,75 @@ input{
     background-color: darkgreen;
     color: white;
 }
-.foot{
+
+.foot {
     display: flex;
     margin-top: 30px;
     gap: 50px;
     margin-left: 60px;
 }
-.pic9 img{
+
+.pic9 img {
     margin-top: 46px;
     width: 100%;
 }
-.left h2{
+
+.left h2 {
     font-size: 25px;
     color: darkred;
 }
-.middle h2{
+
+.middle h2 {
     font-size: 25px;
     margin-left: 117px;
     color: darkgreen;
 }
-.right h2{
+
+.right h2 {
     font-size: 20px;
     margin-right: 55px;
     color: darkgreen;
 }
-.box1  {
-     background-color:gray;
-     height: 80px;
-     width: 300px;
-      margin-top: 20px;
+
+.box1 {
+    background-color: gray;
+    height: 80px;
+    width: 300px;
+    margin-top: 20px;
 }
-.box1 h2{
+
+.box1 h2 {
     font-size: 25px;
     color: white;
 }
-.box1 h3{
+
+.box1 h3 {
     font-size: 15px;
     color: white;
-     margin-top: 30px;
-     margin-left: 150px;
+    margin-top: 30px;
+    margin-left: 150px;
 }
-.box1 .menu{
+
+.box1 .menu {
     height: 80px;
     width: 11px;
     margin-left: -11px;
     margin-bottom: 160px;
     position: relative;
-    top: -4.88rem;   
+    top: -4.88rem;
 }
-.middle p{
+
+.middle p {
     letter-spacing: 1px;
     font-size: 18px;
     padding: 33px;
 }
-.right p{
+
+.right p {
     letter-spacing: 1px;
 }
-.right button{
+
+.right button {
     height: 30px;
     width: 124px;
     margin-left: 64px;
@@ -346,178 +404,208 @@ input{
     margin-top: -22px;
     margin-bottom: 45px;
 }
-.right .rg{
-    margin-left:-2px;
+
+.right .rg {
+    margin-left: -2px;
     height: 2px;
-    width: 220px;   
+    width: 220px;
 }
-.piclast{
-    margin-left: 20px;   
+
+.piclast {
+    margin-left: 20px;
 }
-.piclast img{
-    height: 150px;   
+
+.piclast img {
+    height: 150px;
 }
+
 .lastpic {
     margin-left: 25px;
-    margin-top: 30px;    
+    margin-top: 30px;
 }
-.lastpic img{
+
+.lastpic img {
     height: 170;
 }
-.logo2 p{
+
+.logo2 p {
     margin-left: 55px;
     font-weight: 700;
     margin-top: 50px;
 }
-.logo2 img{
+
+.logo2 img {
     margin-left: 17px;
 }
-.follow h2{
+
+.follow h2 {
     margin-top: 40px;
 }
-.follow h3{
+
+.follow h3 {
     margin-top: 60px;
     color: #555555;
     margin-left: 90px;
 }
 
-@media (max-width: 480px) {
+
+
+
+@media (max-width: 768px) {
+
     body {
-        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 40px solid #555555;
+        border-top: 0;
+        border-bottom: -1px;
+        color: #333333;
+        line-height: 1.2;
+        height: 409vh;
     }
-    /* .logo{
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-} */
-.logo img{
-   max-width: 94%;
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 94%;
         height: auto;
         margin-right: 19.6rem;
         display: inline-block;
-}
-.site-header{
-    display: flex;
-    gap: 420px; 
-}
-.contact{
-    margin-top: 20px; 
-    
-}
- h3{
-  
-        font-size: 1rem;
-        color: green;
-        margin-left: -73rem;
+    }
+
+    .site-header {
         display: flex;
-        justify-content: space-around;
-        flex-direction: row;
+        gap: 420px;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+        color: green;
+        margin-left: -42rem;
         margin-top: 4rem;
-}
-h2{
-    font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1rem;
         font-weight: 800;
         margin-left: -40rem;
-}
-p{
-  font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.9rem;
         letter-spacing: 0rem;
         margin-left: -43.1rem;
-}
-hr{
-    width: 30%;
-    height: 5px;
-    background-color: green;
-}
+    }
 
-nav{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgreen;
-    font-size: 7px;
-    height: 42px;
-    gap: 0px;
-    justify-content: end;
-    display: flex;
-    width: 18.5rem;
-}
-nav a{
-    color: white;
-    text-decoration: none;
-    margin-top: 18px;
-    gap:10px;
-    padding-right: 6px;
-    font-weight: 200;   
-}
+    hr {
+        width: 17%;
+        height: 0px;
+        background-color: green;
+        margin-left: -691px;
+    }
 
-.pic1 img{
-   padding-left: 27px;
+    nav {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: darkgreen;
+        font-size: 7px;
+        height: 42px;
+        gap: 0px;
+        justify-content: end;
+        display: flex;
+        width: 19.7rem;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-top: 18px;
+        gap: 10px;
+        padding-right: 6px;
+        font-weight: 200;
+    }
+
+    .pic1 img {
+        padding-left: 27px;
         padding-top: 17px;
         height: 92%;
         width: 103%;
-        
         margin-left: -1rem;
-}
-.both{
-  display: flex;
-  flex-direction: column;
-  gap: 160px;    
-}
-.pic2{
-           background-image: url(./src/form_bg.jpg);
+    }
+
+    .both {
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+    }
+
+    .pic2 {
+        background-image: url(./src/form_bg.jpg);
         background-size: cover;
         background-position: center;
         margin-left: 10px;
         width: 93%;
         margin-top: -132px;
-        /* box-shadow: 10px 10px 30px black;    */
-}
+    }
 
-.pic2 h1{
-   background-color: red;
+    .pic2 h1 {
+        background-color: red;
         width: 108px;
-        font-size: 1rem;  
-}
-.pic2 h4{
-  font-size: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .pic2 h4 {
+        font-size: 0.7rem;
         display: flex;
         justify-content: end;
         margin-right: 76px;
-        margin-top: 0px; 
-}
-.pic2 p{
-    font-size: 0.6rem;
+        margin-top: 0px;
+    }
+
+    .pic2 p {
+        font-size: 0.6rem;
         letter-spacing: 0rem;
         margin-left: 30px;
-}
-.screen {
-display:flex;   
-}
-.tex h5{
-           margin-bottom: 0.1rem;
+    }
+
+    .screen {
+        display: flex;
+    }
+
+    .tex h5 {
+        margin-bottom: 0.1rem;
         margin-left: 11px;
         font-size: 0.6rem;
         margin-top: 10px;
-}
-input{
-   height: 1rem;
+    }
+
+    input {
+        height: 1rem;
         width: 9rem;
         padding-bottom: 0.4rem;
         margin-left: 9px;
-}
-.pic3 img{
-           height: 19px;
+    }
+
+    .pic3 img {
+        height: 19px;
         margin-left: 9px;
         margin-top: 32px;
         transform: rotate(15deg);
-}
-.area textarea{
-   height: 34px;
+    }
+
+    .area textarea {
+        height: 34px;
         width: 223px;
         margin-left: 25px;
         margin-top: 20px;
-}
-.text1 button{
-   letter-spacing: 0rem;
+    }
+
+    .text1 button {
+        letter-spacing: 0rem;
         font-size: 0.5rem;
         background-color: darkgreen;
         position: relative;
@@ -526,42 +614,49 @@ input{
         height: 20px;
         width: 100px;
         margin-top: 19px;
-}
-.text2 p{
-   font-size: 0.6rem;
+    }
+
+    .text2 p {
+        font-size: 0.6rem;
         margin-bottom: -5px;
         position: relative;
-        bottom: 1rem;  
+        bottom: 1rem;
         margin-left: 1rem;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-}
-.text3 h2{
-            font-size: 1rem;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text3 h2 {
+        font-size: 1rem;
         margin-left: 12px;
         margin-top: 22px;
-}
-.text3 h3{
-    font-size: 0.9rem;
-        margin-left: -93px;
+    }
+
+    .text3 h3 {
+        font-size: 0.7rem;
+        margin-left: 14px;
         margin-top: -0.8rem;
-}
-.text3 p{
-           font-size: 12px;
+    }
+
+    .text3 p {
+        font-size: 12px;
         margin-left: 21px;
         letter-spacing: 0rem;
         margin-top: -0.6rem;
-}
-.pic4 img{
-    margin-top: -100px;
+    }
+
+    .pic4 img {
+        margin-top: -100px;
         height: 84px;
         margin-left: 189px;
         margin-bottom: 99px;
-}
-.text4 button{
-    margin-top: -35px;
+    }
+
+    .text4 button {
+        margin-top: -35px;
         height: 26px;
         width: 112px;
         margin-left: 132px;
@@ -569,54 +664,295 @@ input{
         color: white;
         font-size: 13px;
         position: relative;
-        top: -4.4rem;
-}
- .text4 .line22{
- margin-bottom: 7rem;
+        top: -4.1rem;
+    }
+
+    .text4 .line22 {
+        margin-bottom: 7rem;
         margin-left: 87px;
         height: 2px;
         width: 195px;
         margin-top: -8.4rem;
-}
-.text5 h2{
-   font-size: 1rem;
-        margin-top: -81px;
+    }
+
+    .text5 h2 {
+        font-size: 1rem;
+        margin-top: 12px;
         margin-left: 18px;
-}
-.text5 p{
-    font-size: 12px;
+    }
+
+    .text5 p {
+        font-size: 12px;
         margin-left: 21px;
         letter-spacing: 0rem;
         margin-top: -16px;
-}
-.text6 button{
-    margin-top: 12px;
-    height: 30px;
-    width: 140px;
-    margin-left: 89px;
-    background-color: darkgreen;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    top: -1.4rem;
-}
- .line2 .line33 {
-      height: 2px;
-    width: 240px;
-    position: relative;
-    top: -4.1rem;
-    left: 1.4rem;   
-}
+    }
 
-.text7 h2{
-    font-size: 24px;
-    margin-top: -16px;
-    margin-left: 19px;
-}
-.text7 p{
-    font-size: 17px;
-    margin-left: 22px;
-    letter-spacing: 0rem;
-}
+    .text6 button {
+        margin-top: 45px;
+        height: 26px;
+        width: 112px;
+        margin-left: 128px;
+        background-color: darkgreen;
+        color: white;
+        font-size: 13px;
+        position: relative;
+        top: -1.4rem;
+    }
+
+    .line2 .line33 {
+        height: 2px;
+        width: 201px;
+        position: relative;
+        top: -4.4rem;
+        left: 5rem;
+    }
+
+    .text7 h2 {
+        font-size: 18px;
+        margin-top: -29px;
+        margin-left: 19px;
+    }
+
+    .text7 p {
+        font-size: 11px;
+        margin-left: 22px;
+        letter-spacing: 0rem;
+        margin-top: -11px;
+    }
+
+    .text8 button {
+        margin-top: 37px;
+        height: 25px;
+        width: 114px;
+        margin-left: 130px;
+        background-color: darkgreen;
+        color: white;
+        font-size: 13px;
+        position: relative;
+        top: -0.3rem;
+    }
+
+    .line4 .line44 {
+        position: relative;
+        bottom: 3.2rem;
+        height: 2px;
+        width: 210px;
+        left: 4.4rem;
+    }
+
+    .pic5 img {
+        margin-top: -63px;
+        position: relative;
+        left: 10rem;
+        height: 63px;
+    }
+
+    .pic6 img {
+        margin-left: 176px;
+        margin-top: -92px;
+        height: 74px;
+    }
+
+    .blog {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        width: 290px;
+        margin-left: 13px;
+        height: 273px;
+        margin-top: -76px;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -33px;
+        margin-top: 23px;
+        width: 100px;
+      
+    }
+
+    .main2 img {
+        height: 42px;
+        margin-left: 5rem;
+    }
+
+    .text9 h2 {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 24px;
+    }
+
+    .text9 p {
+        font-size: 12px;
+        margin-left: 27px;
+        letter-spacing: 0rem;
+        margin-top: 0.5rem;
+    }
+
+    .click button {
+        margin-top: 17px;
+        font-size: 16px;
+        margin-left: 127px;
+        height: 28px;
+        width: 125px;
+        background-color: darkgreen;
+        color: white;
+    }
+
+    .foot {
+        display: flex;
+        margin-top: 100px;
+        gap: 50px;
+        margin-left: 60px;
+    }
+
+    .pic9 img {
+            margin-top: -40px;
+        margin-bottom: 5rem;
+        margin-left: 1rem;
+        width: 17rem;
+    }
+
+    .left {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .left h2 {
+        font-size: 20px;
+        color: darkred;
+        margin-bottom: 12rem;
+        margin-top: -9rem;
+        margin-left: 0rem;
+    }
+
+    .middle h2 {
+        font-size: 20px;
+        margin-left: -321px;
+        color: #006400;
+        margin-top: 24rem;
+        margin-bottom: 5rem;
+    }
+
+    .right h2 {
+        font-size: 20px;
+        margin-left: -374px;
+        color: darkgreen;
+        margin-top: 61rem;
+    }
+
+    .box1 {
+        background-color: gray;
+        height: 80px;
+        width: 260px;
+        margin-top: -176px;
+        margin-bottom: 13rem;
+        margin-left: -2rem;
+    }
+
+    .box1 h2 {
+        font-size: 13px;
+        color: white;
+    }
+
+    .box1 h3 {
+        font-size: 15px;
+        color: white;
+        margin-top: -158px;
+        margin-left: 150px;
+    }
+
+    .box1 .menu {
+        height: 80px;
+        width: 11px;
+        margin-left: -11px;
+        margin-bottom: 161px;
+        position: relative;
+        top: -5.3rem;
+    }
+
+    .middle p {
+        letter-spacing: 1px;
+        font-size: 18px;
+        padding: -14px;
+        margin-top: -6rem;
+        margin-left: -22rem;
+    }
+
+    .right {
+        height: 200px;
+        border: 2px solid black;
+        margin-top: 40px;
+    }
+
+    .right p {
+        letter-spacing: 1px;
+        margin-left: -23rem;
+    }
+
+    .right button {
+               height: 34px;
+        width: 127px;
+        margin-left: -309px;
+        background-color: darkolivegreen;
+        color: white;
+        margin-top: 1rem;
+    }
+
+    .right.rg {
+        margin-left: -380px;
+        height: 2px;
+        width: 220px;
+    }
+
+    .piclast {
+        margin-left: 20px;
+    }
+
+    .piclast img {
+               height: 70px;
+        margin-top: 64rem;
+        margin-left: -19rem;
+    }
+
+    .lastpic {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+
+    .lastpic img {
+        height: 170px;
+    }
+
+    .logo2 p {
+               margin-left: -339px;
+        font-weight: 700;
+        margin-top: -149px;
+        font-size: 21px;
+    }
     
+    }
+
+    .logo2 img {
+               margin-left: 11px;
+        position: relative;
+        left: -24rem;
+                top: -2rem;
+    }
+
+    .follow {
+        margin-top: -10rem;
+    }
+
+    .follow h2 {
+       
+        font-size: 1rem;
+    }
+
+    .follow h3 {
+        margin-top: 60px;
+        color: #555555;
+        margin-left: 90px;
+    }
 }
