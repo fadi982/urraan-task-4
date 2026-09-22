@@ -1,958 +1,1088 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 40px solid #555555;
-    color: #333333;
-    line-height: 1.2;
-    border-top: 0px;
-    border-bottom: 0px;
-    height: 320vh;
-}
-
-.logo {
-    height: 50%;
-}
-
-.logo img {
-    width: 130%;
-}
-
-.site-header {
-    display: flex;
-    gap: 420px;
-}
-
-.contact {
-    margin-top: 20px;
-}
-
-h3 {
-    font-size: 1.8rem;
-    color: green;
-}
-
-h2 {
-    font-size: 3rem;
-    letter-spacing: 0.9;
-    font-weight: 800;
-}
-
-p {
-    font-size: 1.2rem;
-    letter-spacing: 0.2rem;
-}
-
-hr {
-    width: 30%;
-    height: 5px;
-    background-color: green;
-}
-
-nav {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgreen;
-    font-size: 22px;
-    height: 65px;
-    gap: 10px;
-    justify-content: end;
-    display: flex;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-top: 18px;
-    gap: 10px;
-    padding-right: 25px;
-    font-weight: 700;
-}
-
-.pic1 img {
-    padding-left: 45px;
-    padding-top: 30px;
+body{
     height: 100%;
-    width: 140%;
+    border: 30px solid grey;
+    border-top: 0px;
+    /* border-bottom: 0px; */
 }
-
-.both {
+header{
     display: flex;
-    gap: 160px;
+    gap: 250px;
 }
-
-.pic2 {
-    background-image: url(./src/form_bg.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-left: 80px;
-    width: 42%;
-    margin-top: 30px;
-    box-shadow: 10px 10px 30px black;
+.text{
+    margin-top: 25px;
 }
-
-.pic2 h1 {
-    background-color: red;
-    width: 210px;
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
 }
-
-.pic2 h4 {
-    font-size: 1.6rem;
+.text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(154, 0, 0);
+    font-size: 1.9rem;
+}
+.text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 1.5rem;
+}
+header img{
+    height: 175px;
+}
+nav{
+    background-color: rgb(154, 0, 0);
+    height: 70px;
+    color: white;
+    font-size: 1.4rem;
     display: flex;
     justify-content: end;
-    margin-right: 140px;
-    margin-top: -22px;
+    gap: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
 }
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
-.pic2 p {
-    font-size: 1.4rem;
-    letter-spacing: 0rem;
-    margin-left: 30px;
 }
-
-.screen {
+.image img{
+    height: 450px;
+}
+.sec{
+    padding-top: 30px;
+    padding-left: 30px;
     display: flex;
+    gap: 20px;
 }
-
-.tex h5 {
-    margin-bottom: 1rem;
-    margin-left: 35px;
-    font-size: 1rem;
-    margin-top: 10px;
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 650px;
 }
-
-input {
-    height: 1.8rem;
-    width: 13rem;
-    padding-bottom: 1.4rem;
-    margin-left: 20px;
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.pic3 img {
-    height: 55px;
-    margin-left: 20px;
-    margin-top: 40px;
-    transform: rotate(15deg);
+.Ques{
+    display: flex;
+    gap: 70px;
 }
-
-.area textarea {
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.6rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.pri{
+    display: flex;
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.name h2{
+    padding-bottom: 14px;
+}
+textarea{
+    width: 550px;
     height: 80px;
-    width: 500px;
-    margin-left: 45px;
     margin-top: 20px;
+    margin-left: 40px;
 }
-
-.text1 button {
-    margin-top: 50px;
-    letter-spacing: 0rem;
-    font-size: 25px;
-    background-color: darkgreen;
-    position: relative;
-    left: 15rem;
-    color: white;
+.btn1{
+    background-color: rgb(154, 0, 0) ;
     height: 50px;
-    width: 300px;
+    width: 320px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.pri p{
+    color:grey;
+    font-size: 1.3rem;
+}
+.note{
+display: flex;
+}
+.conf img{
+    /* position: absolute; */
+    /* top: 450px; */
+    /* right: 130px; */
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 220px;
+    transform: rotate(20deg);
+    opacity: 0.9;
+}
+section {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.dui p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img{
+    height: 140px;
+    margin-top: 50px;
+    position :absolute;
+    left: 24rem;
+}
+.dui h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.dui h3{
+    font-size: 1.4rem;
+    font-family: arial;
+    color: rgb(154, 0, 0) ;
+    padding-bottom: 14px;
+}
+.note{
+    border-right:1px solid black ;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    margin-left: 250px;
+    background-color:  rgb(154, 0, 0);
+    color: white;
+    padding-top: 10px;
+}
+.dui img{
+    width: 280px;
+    height:2px ;
+    margin-left: 160px;
+}
+.blog{
+    display: flex;
+}
+section{
+    display: flex;
+}
+.law h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 20px;
+}
+.law img{
+     width: 280px;
+    height:2px ;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+}
+.law-pic img{
+    height: 120px;
+    margin-top: 30px;
+
+}
+.blog{
+    padding-bottom: 30px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-bottom: 1px solid black;
+}
+.cred img{
+    height: 125px;
+}
+.cred{
+    display: flex;
+    gap: 20px;
+}
+.cred-t h2{
+    font-size: 1.7rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
     margin-top: 20px;
 }
-
-.text2 p {
-    font-size: 15px;
-    margin-bottom: 20px;
-    position: relative;
-    bottom: 2rem;
+.cred-t p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
 }
-
-.main {
-    display: flex;
-}
-
-.text3 h2 {
-    font-size: 25px;
-    margin-left: 60px;
-    margin-top: 80px;
-}
-
-.text3 h3 {
-    font-size: 20px;
-    margin-left: 60px;
-}
-
-.text3 p {
-    font-size: 18px;
-    margin-left: 60px;
-    letter-spacing: 0rem;
-}
-
-.pic4 img {
-    margin-top: 200px;
-    height: 135px;
-    margin-left: -18px;
-    margin-top: 160px;
-}
-
-.text4 button {
-    margin-top: 350px;
-    height: 30px;
+.btn3{
+    height: 40px;
     width: 150px;
-    margin-left: -155px;
-    background-color: darkgreen;
+    margin-left: 80px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
     color: white;
-    font-size: 18px;
-    position: relative;
-    top: -0.3rem;
+    padding-left: 8px;
 }
+.cred-t img{
+    margin-left: 40px;
+     width: 280px;
+    height:2px ;
 
-.text4 .line22 {
-    margin-bottom: 25px;
-    margin-left: -196px;
-    height: 2px;
-    width: 240px;
 }
-
-.text5 h2 {
-    font-size: 25px;
-    margin-top: 80px;
-    margin-left: 27px;
+.cre{
+    padding-left: 30px;
 }
-
-.text5 p {
-    font-size: 19px;
-    margin-left: 27px;
-    letter-spacing: 0rem;
+section{
+    margin-top: 100px;
+    padding-bottom: 60px;
 }
+span{
+    color:rgb(154, 0, 0) ;
 
-.text6 button {
-    margin-top: 12px;
-    height: 30px;
-    width: 140px;
-    margin-left: 89px;
-    background-color: darkgreen;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    top: -1.4rem;
 }
-
-.line2 .line33 {
-    height: 2px;
-    width: 240px;
-    position: relative;
-    top: -4.1rem;
-    left: 1.4rem;
+.side1 img{
+    position: absolute;
+    height: 80px;
+    width: 15px;
+    margin-top: 0px;
+    
+   
+    /* margin-top: 0px; */
 }
-
-.text7 h2 {
-    font-size: 24px;
-    margin-top: -16px;
-    margin-left: 19px;
+.side1{
+    height: 80px;
+    width: 310px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
 }
-
-.text7 p {
-    font-size: 17px;
-    margin-left: 22px;
-    letter-spacing: 0rem;
-}
-
-.text8 button {
-    margin-top: -7px;
-    height: 30px;
-    width: 140px;
-    margin-left: 89px;
-    background-color: darkgreen;
-    color: white;
-    font-size: 18px;
-    position: relative;
-    top: -0.3rem;
-}
-
-.line4 .line44 {
-    position: relative;
-    bottom: 3rem;
-    height: 2px;
-    width: 240px;
-    left: 1.4rem;
-}
-
-.pic5 img {
-    margin-top: -71px;
-    position: relative;
-    left: 19rem;
-    height: 107px;
-}
-
-.pic6 img {
-    margin-left: 298px;
-    margin-top: -78px;
-    height: 114px;
-}
-
-.blog {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    width: 520px;
-}
-
-.main2 {
-    display: flex;
-    margin-left: 55px;
-    margin-top: 130px;
-    gap: 30px;
-}
-
-.main2 img {
-    height: 120px;
-}
-
-.text9 h2 {
-    font-size: 25px;
-    margin-top: 267px;
-    margin-left: -329px;
-}
-
-.text9 p {
-    font-size: 18px;
-    margin-left: -329px;
-    letter-spacing: 0rem;
-}
-
-.click button {
-    margin-top: 393px;
-    font-size: 18px;
-    margin-left: -116px;
-    height: 30px;
-    width: 140px;
-    background-color: darkgreen;
+.side1 h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
     color: white;
 }
-
-.foot {
-    display: flex;
-    margin-top: 30px;
-    gap: 50px;
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.1rem;
+    color: white;
+}
+.side{
     margin-left: 60px;
+    padding-bottom: 0px;
 }
-
-.pic9 img {
-    margin-top: 46px;
+.side h1{
+    font-size: 1.7rem;
+    margin-left: 0px;
+}
+.last{
+    display: flex;
+}
+.right1 img{
+    height: 2px;
+    width: 200px;
+}
+.right1 button{
+    height: 30px;
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+    
+}
+.para p{
+    font-size: 1.3rem;
+    color: rgb(36, 31, 31);
+}
+.para{
+    padding: 70px;
+    padding-top: 0px;
+}
+.para h1{
+    margin-bottom: 20px;
+}
+.right1 h2{
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+    color: rgb(55, 53, 53);
+}
+.right1 p{
+    font-size: 1.3rem;
+}
+.right1{
+    padding-right: 45px;
+    padding-bottom: 40px;
+}
+.logo{
+    height: 160px;
+    margin-left: 20px;
+}
+.logo1{
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.follow{
+   margin-top: 20px;
+   margin-left: 20px;
+font-size: 1.9rem;
+}
+.icon img{
+    height: 45px;
+    margin-right: 15px;
+}
+.bullet{
     width: 100%;
 }
-
-.left h2 {
-    font-size: 25px;
-    color: darkred;
+.last{
+    padding-top: 45px;
 }
-
-.middle h2 {
-    font-size: 25px;
-    margin-left: 117px;
-    color: darkgreen;
+.hr{
+    height: 10px;
+    width: 100%;
 }
-
-.right h2 {
-    font-size: 20px;
-    margin-right: 55px;
-    color: darkgreen;
-}
-
-.box1 {
-    background-color: gray;
-    height: 80px;
-    width: 300px;
-    margin-top: 20px;
-}
-
-.box1 h2 {
-    font-size: 25px;
-    color: white;
-}
-
-.box1 h3 {
-    font-size: 15px;
-    color: white;
-    margin-top: 30px;
-    margin-left: 150px;
-}
-
-.box1 .menu {
-    height: 80px;
-    width: 11px;
-    margin-left: -11px;
-    margin-bottom: 160px;
+.btn2 img{
+    height:15px;
+    width: 15px;
     position: relative;
-    top: -4.88rem;
+    left: 5px;
+    top: 1px;
+}
+.btn img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:45px ;
+    bottom: 15px;
+}
+.btn3 img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:25px ;
+    top: 1px;
+}
+.clk img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.side1 h3 img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+h2{
+    color: rgb(55, 53, 53);
+}
+.icon{
+    padding-bottom: 80px;
 }
 
-.middle p {
-    letter-spacing: 1px;
-    font-size: 18px;
-    padding: 33px;
-}
 
-.right p {
-    letter-spacing: 1px;
-}
+@media (max-width: 992px) {
 
-.right button {
-    height: 30px;
-    width: 124px;
-    margin-left: 64px;
-    background-color: darkolivegreen;
+    header {
+        gap: 220px;
+    }
+
+    header img {
+        height: 100px;
+    }
+
+    .text {
+        margin-top: 8px;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .text h3 {
+        font-size: 1rem;
+    }
+
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 50px;
     color: white;
-    margin-top: -22px;
-    margin-bottom: 45px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.right .rg {
-    margin-left: -2px;
-    height: 2px;
-    width: 220px;
+section {
+    margin-top: 5px;
+    padding-left: 150px;
+    display: inline;
+}
+    .dui{
+        padding-left: 50px;
+    }
+
+.sec{
+    display: flex;
+    flex-direction: row;
 }
 
-.piclast {
-    margin-left: 20px;
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
 }
-
-.piclast img {
-    height: 150px;
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.lastpic {
-    margin-left: 25px;
-    margin-top: 30px;
+.Ques{
+    display: flex;
+    gap: 70px;
 }
-
-.lastpic img {
-    height: 170;
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
 }
-
-.logo2 p {
-    margin-left: 55px;
-    font-weight: 700;
-    margin-top: 50px;
+.form p{
+    font-size: 0.9rem;
+    padding-left: 15px;
+    padding-top: 5px;
 }
-
-.logo2 img {
-    margin-left: 17px;
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
 }
-
-.follow h2 {
-    margin-top: 40px;
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 350px;
 }
-
-.follow h3 {
-    margin-top: 60px;
-    color: #555555;
-    margin-left: 90px;
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
 }
+input{
+    width: 160px;
+    height: 15px;
+    margin-bottom: 10px;
+}
+.name h2{
+    padding-bottom: 7px;
+    font-size:0.9rem;
+}
+textarea{
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+textarea::placeholder{
+    font-size: 10px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 30px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 1px;
+    font-size: 0.6rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.7rem;
+}
+.image img{
+    height: 350px;
+    width: 450px;
 
-
-
+    
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    padding-left: 70px;
+}
+.right1{
+    padding-bottom: 50px;
+}.conf img{
+    /* position: absolute; */
+    /* top: 350px; */
+    /* right: 80px; */
+    /* width: 100px; */
+    margin-top: 20px;
+    width: 110px;
+    transform: rotate(20deg);
+    opacity: 0.9;
+}
+}
 
 @media (max-width: 768px) {
 
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        border: 40px solid #555555;
-        border-top: 0;
-        border-bottom: -1px;
-        color: #333333;
-        line-height: 1.2;
-        height: 409vh;
+    header {
+        gap: 120px;
     }
 
-    html, body {
-        overflow-x: hidden;
-    }
-
-    img {
-        max-width: 94%;
-        height: auto;
-        margin-right: 19.6rem;
-        display: inline-block;
-    }
-
-    .site-header {
-        display: flex;
-        gap: 420px;
-    }
-
-    .contact {
-        margin-top: 20px;
-    }
-
-    h3 {
-        font-size: 0.9rem;
-        color: green;
-        margin-left: -42rem;
-        margin-top: 4rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-        font-weight: 800;
-        margin-left: -40rem;
-    }
-
-    p {
-        font-size: 0.9rem;
-        letter-spacing: 0rem;
-        margin-left: -43.1rem;
-    }
-
-    hr {
-        width: 17%;
-        height: 0px;
-        background-color: green;
-        margin-left: -691px;
-    }
-
-    nav {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: darkgreen;
-        font-size: 7px;
-        height: 42px;
-        gap: 0px;
-        justify-content: end;
-        display: flex;
-        width: 19.7rem;
-    }
-
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-top: 18px;
-        gap: 10px;
-        padding-right: 6px;
-        font-weight: 200;
-    }
-
-    .pic1 img {
-        padding-left: 27px;
-        padding-top: 17px;
-        height: 92%;
-        width: 103%;
-        margin-left: -1rem;
-    }
-
-    .both {
-        display: flex;
-        flex-direction: column;
-        gap: 160px;
-    }
-
-    .pic2 {
-        background-image: url(./src/form_bg.jpg);
-        background-size: cover;
-        background-position: center;
-        margin-left: 10px;
-        width: 93%;
-        margin-top: -132px;
-    }
-
-    .pic2 h1 {
-        background-color: red;
-        width: 108px;
-        font-size: 1rem;
-    }
-
-    .pic2 h4 {
-        font-size: 0.7rem;
-        display: flex;
-        justify-content: end;
-        margin-right: 76px;
-        margin-top: 0px;
-    }
-
-    .pic2 p {
-        font-size: 0.6rem;
-        letter-spacing: 0rem;
-        margin-left: 30px;
-    }
-
-    .screen {
-        display: flex;
-    }
-
-    .tex h5 {
-        margin-bottom: 0.1rem;
-        margin-left: 11px;
-        font-size: 0.6rem;
-        margin-top: 10px;
-    }
-
-    input {
-        height: 1rem;
-        width: 9rem;
-        padding-bottom: 0.4rem;
-        margin-left: 9px;
-    }
-
-    .pic3 img {
-        height: 19px;
-        margin-left: 9px;
-        margin-top: 32px;
-        transform: rotate(15deg);
-    }
-
-    .area textarea {
-        height: 34px;
-        width: 223px;
-        margin-left: 25px;
-        margin-top: 20px;
-    }
-
-    .text1 button {
-        letter-spacing: 0rem;
-        font-size: 0.5rem;
-        background-color: darkgreen;
-        position: relative;
-        left: 10rem;
-        color: white;
-        height: 20px;
-        width: 100px;
-        margin-top: 19px;
-    }
-
-    .text2 p {
-        font-size: 0.6rem;
-        margin-bottom: -5px;
-        position: relative;
-        bottom: 1rem;
-        margin-left: 1rem;
-    }
-
-    .main {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .text3 h2 {
-        font-size: 1rem;
-        margin-left: 12px;
-        margin-top: 22px;
-    }
-
-    .text3 h3 {
-        font-size: 0.7rem;
-        margin-left: 14px;
-        margin-top: -0.8rem;
-    }
-
-    .text3 p {
-        font-size: 12px;
-        margin-left: 21px;
-        letter-spacing: 0rem;
-        margin-top: -0.6rem;
-    }
-
-    .pic4 img {
-        margin-top: -100px;
-        height: 84px;
-        margin-left: 189px;
-        margin-bottom: 99px;
-    }
-
-    .text4 button {
-        margin-top: -35px;
-        height: 26px;
-        width: 112px;
-        margin-left: 132px;
-        background-color: darkgreen;
-        color: white;
-        font-size: 13px;
-        position: relative;
-        top: -4.1rem;
-    }
-
-    .text4 .line22 {
-        margin-bottom: 7rem;
-        margin-left: 87px;
-        height: 2px;
-        width: 195px;
-        margin-top: -8.4rem;
-    }
-
-    .text5 h2 {
-        font-size: 1rem;
-        margin-top: 12px;
-        margin-left: 18px;
-    }
-
-    .text5 p {
-        font-size: 12px;
-        margin-left: 21px;
-        letter-spacing: 0rem;
-        margin-top: -16px;
-    }
-
-    .text6 button {
-        margin-top: 45px;
-        height: 26px;
-        width: 112px;
-        margin-left: 128px;
-        background-color: darkgreen;
-        color: white;
-        font-size: 13px;
-        position: relative;
-        top: -1.4rem;
-    }
-
-    .line2 .line33 {
-        height: 2px;
-        width: 201px;
-        position: relative;
-        top: -4.4rem;
-        left: 5rem;
-    }
-
-    .text7 h2 {
-        font-size: 18px;
-        margin-top: -29px;
-        margin-left: 19px;
-    }
-
-    .text7 p {
-        font-size: 11px;
-        margin-left: 22px;
-        letter-spacing: 0rem;
-        margin-top: -11px;
-    }
-
-    .text8 button {
-        margin-top: 37px;
-        height: 25px;
-        width: 114px;
-        margin-left: 130px;
-        background-color: darkgreen;
-        color: white;
-        font-size: 13px;
-        position: relative;
-        top: -0.3rem;
-    }
-
-    .line4 .line44 {
-        position: relative;
-        bottom: 3.2rem;
-        height: 2px;
-        width: 210px;
-        left: 4.4rem;
-    }
-
-    .pic5 img {
-        margin-top: -63px;
-        position: relative;
-        left: 10rem;
-        height: 63px;
-    }
-
-    .pic6 img {
-        margin-left: 176px;
-        margin-top: -92px;
-        height: 74px;
-    }
-
-    .blog {
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        width: 290px;
-        margin-left: 13px;
-        height: 273px;
-        margin-top: -76px;
-    }
-
-    .main2 {
-        display: flex;
-        flex-direction: column;
-        margin-left: -33px;
-        margin-top: 23px;
-        width: 100px;
-      
-    }
-
-    .main2 img {
-        height: 42px;
-        margin-left: 5rem;
-    }
-
-    .text9 h2 {
-        font-size: 16px;
-        margin-top: 15px;
-        margin-left: 24px;
-    }
-
-    .text9 p {
-        font-size: 12px;
-        margin-left: 27px;
-        letter-spacing: 0rem;
-        margin-top: 0.5rem;
-    }
-
-    .click button {
-        margin-top: 17px;
-        font-size: 16px;
-        margin-left: 127px;
-        height: 28px;
-        width: 125px;
-        background-color: darkgreen;
-        color: white;
-    }
-
-    .foot {
-        display: flex;
-        margin-top: 100px;
-        gap: 50px;
-        margin-left: 60px;
-    }
-
-    .pic9 img {
-            margin-top: -40px;
-        margin-bottom: 5rem;
-        margin-left: 1rem;
-        width: 17rem;
-    }
-
-    .left {
-        margin: 0%;
-        padding: 0%;
-    }
-
-    .left h2 {
-        font-size: 20px;
-        color: darkred;
-        margin-bottom: 12rem;
-        margin-top: -9rem;
-        margin-left: 0rem;
-    }
-
-    .middle h2 {
-        font-size: 20px;
-        margin-left: -321px;
-        color: #006400;
-        margin-top: 24rem;
-        margin-bottom: 5rem;
-    }
-
-    .right h2 {
-        font-size: 20px;
-        margin-left: -374px;
-        color: darkgreen;
-        margin-top: 61rem;
-    }
-
-    .box1 {
-        background-color: gray;
+    header img {
         height: 80px;
-        width: 260px;
-        margin-top: -176px;
-        margin-bottom: 13rem;
-        margin-left: -2rem;
     }
 
-    .box1 h2 {
-        font-size: 13px;
-        color: white;
+    .text {
+        margin-top: 5px;
     }
 
-    .box1 h3 {
-        font-size: 15px;
-        color: white;
-        margin-top: -158px;
-        margin-left: 150px;
+    .text h1 {
+        font-size: 2.1rem;
     }
 
-    .box1 .menu {
-        height: 80px;
-        width: 11px;
-        margin-left: -11px;
-        margin-bottom: 161px;
-        position: relative;
-        top: -5.3rem;
+    .text h2 {
+        font-size: 1rem;
     }
 
-    .middle p {
-        letter-spacing: 1px;
-        font-size: 18px;
-        padding: -14px;
-        margin-top: -6rem;
-        margin-left: -22rem;
+    .text h3 {
+        font-size: 0.8rem;
     }
 
-    .right {
-        height: 200px;
-        border: 2px solid black;
-        margin-top: 40px;
-    }
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 50px;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
-    .right p {
-        letter-spacing: 1px;
-        margin-left: -23rem;
-    }
+}
 
-    .right button {
-               height: 34px;
-        width: 127px;
-        margin-left: -309px;
-        background-color: darkolivegreen;
-        color: white;
-        margin-top: 1rem;
+section {
+    margin-top: 5px;
+    padding-left: 10px;
+    display: inline;
+}
+    .dui{
+        padding-left: 70px;
+        padding-bottom: 30px;
     }
+    .dui h2{
+        font-size: 40px;
+    }
+    .dui h3{
+        font-size: 25px;
+    }
+    .dui p{
+        font-size: 25px;
+    }
+  .img img{
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+    .sec{
+    display:flex;
+flex-direction: column;
+}
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.4rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
+}
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 650px;
+}
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.name h2{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 25px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.9rem;
+}
+.image img{
+    width: 650px;
 
-    .right.rg {
-        margin-left: -380px;
-        height: 2px;
-        width: 220px;
-    }
-
-    .piclast {
-        margin-left: 20px;
-    }
-
-    .piclast img {
-               height: 70px;
-        margin-top: 64rem;
-        margin-left: -19rem;
-    }
-
-    .lastpic {
-        margin-left: 25px;
-        margin-top: 30px;
-    }
-
-    .lastpic img {
-        height: 170px;
-    }
-
-    .logo2 p {
-               margin-left: -339px;
-        font-weight: 700;
-        margin-top: -149px;
-        font-size: 21px;
-    }
     
+}
+.law h2{
+    font-size: 2.7rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 45px;
+
+}
+.cre{
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-bottom: 40px;
+}
+.cred-t h2{
+     font-size: 2.7rem;
+}
+.cred-t p{
+    font-size: 1.5rem;
+}
+.cred img{
+    height: 140px;
+}
+.lawpic img{
+    height: 131px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    padding-left: 70px;
+}
+.right1{
+    padding-bottom: 50px;
+}
+.side1{
+    height: 88px;
+    width: 360px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+}
+.side{
+    margin-left: 80px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 2.7rem;
+    margin-left: 0px;
+}
+.side1 img{
+    height: 86px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.conf img{
+
+    width: 200px;
+    transform: rotate(13deg);
+    opacity: 0.9;
+}
+}
+@media (max-width: 576px) {
+
+    header {
+        gap: 80px;
     }
 
-    .logo2 img {
-               margin-left: 11px;
-        position: relative;
-        left: -24rem;
-                top: -2rem;
+    header img {
+        height: 60px;
     }
 
-    .follow {
-        margin-top: -10rem;
+    .text {
+        margin-top: 5px;
     }
 
-    .follow h2 {
-       
-        font-size: 1rem;
+    .text h1 {
+        font-size: 1.7rem;
     }
 
-    .follow h3 {
-        margin-top: 60px;
-        color: #555555;
-        margin-left: 90px;
+    .text h2 {
+        font-size: 0.8rem;
     }
+
+    .text h3 {
+        font-size: 0.64rem;
+    }
+
+    nav{
+    background-color: rgb(154, 0, 0);
+    height: 35px;
+    color: white;
+    font-size: 0.65rem;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-right: 0px;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    
+    display: inline;
+}
+    .dui{
+        padding-left: 30px;
+        margin-left: 20px;
+        padding-bottom: 60px;
+    }
+    .dui h2{
+        font-size: 34px;
+    }
+    .dui h3{
+        font-size: 19px;
+    }
+    .dui p{
+        font-size: 19px;
+    }
+    .img img{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+  
+    .sec{
+    display:flex;
+    padding-top: 10px;
+    padding-left: 10px;
+flex-direction: column;
+}
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.1rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    /* display: flex; */
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    width:650px;
+}
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+}
+.pri{
+    /* display: flex; */
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.name h2{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 25px;
+    width: 160px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
+.pri p{
+    color:grey;
+    font-size: 0.9rem;
+}
+.image img{
+    width: 500px;
+    margin-left: 0px;
+
+    
+}
+.law h2{
+    font-size: 34px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 20px;
+
+}
+.cre{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.cred-t h2{
+     font-size: 34px;
+}
+.cred-t p{
+    font-size: 20px;
+}
+.cred img{
+    height: 110px;
+}
+.law-pic img{
+    height: 100px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+}
+.side1{
+    height: 88px;
+    width: 360px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+}
+.side{
+    margin-left: 80px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 2rem;
+    margin-left: 0px;
+}
+.side1 img{
+    height: 86px;
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+.conf img{
+
+    width: 150px;
+    transform: rotate(13deg);
+    opacity: 0.9;
+}
+.right1 h2{
+    font-size: 34px;
+    padding-bottom: 5px;
+    color: rgb(55, 53, 53);
+}
+.right1 p{
+    font-size: 24px;
+}
+.right1{
+    padding-right: 65px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.logo{
+    height: 130px;
+    margin-left: 30px;
+}
+.logo1{
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.follow{
+   margin-top: 20px;
+   margin-left: 30px;
+font-size: 1.9rem;
+}
+.icon img{
+    height: 45px;
+    margin-right: 15px;
+}
+.right{
+    padding-left: 150px;
+}
+
 }
