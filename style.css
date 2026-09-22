@@ -419,6 +419,10 @@ h2{
 
 
 @media (max-width: 992px) {
+     html , body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
 
     header {
         gap: 220px;
