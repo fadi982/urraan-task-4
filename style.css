@@ -78,6 +78,7 @@ strong{
     background-color:  rgb(154, 0, 0);
     padding: 10px;
     color: white;
+    font-size: 1rem;
 }
 .form p{
     font-size: 1.6rem;
@@ -114,7 +115,7 @@ textarea{
 .btn1{
     background-color: rgb(154, 0, 0) ;
     height: 50px;
-    width: 320px;
+    width: 227px;
     /* margin-top: 40px; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -417,9 +418,438 @@ h2{
     padding-bottom: 80px;
 }
 
+@media (max-width:1200px ){
+    body{
+    height: 100%;
+    border: 30px solid grey;
+    border-top: 0px;
+    /* border-bottom: 0px; */
+}
+header{
+    display: flex;
+    gap: 3px;
+}
+.text{
+    margin-top: 25px;
+}
+.text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+.text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(154, 0, 0);
+    font-size: 1.9rem;
+}
+.text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 1.5rem;
+}
+header img{
+    height: 135px;
+}
+nav{
+    background-color: rgb(154, 0, 0);
+    height: 70px;
+    color: white;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: end;
+    gap: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    width: 71.3rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.image img{
+                   height: 429px;
+        width: 539px;
+        margin-left: -1rem;
+}
+.sec{
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+.form{
+    background-image: url(./img/form_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 535px;
+}
+strong{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ques{
+    display: flex;
+    gap: 70px;
+}
+.ques h1{
+    background-color:  rgb(154, 0, 0);
+    padding: 10px;
+    color: white;
+}
+.form p{
+    font-size: 1.5rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+form{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.pri{
+    display: flex;
+    padding-top: 10px;
+    gap: 23px;
+}
+input{
+    width: 223px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.name h2{
+    padding-bottom: 14px;
+}
+textarea{
+    width: 437px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.btn1{
+    background-color: rgb(154, 0, 0) ;
+    height: 37px;
+    width: 254px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.pri p{
+    color:grey;
+    font-size: 1.3rem;
+}
+.note{
+display: flex;
+}
+.conf img{
+    /* position: absolute; */
+    /* top: 450px; */
+    /* right: 130px; */
+    margin-left: 8px;
+    margin-top: 49px;
+    width: 130px;
+    transform: rotate(20deg);
+    opacity: 0.9;
+}
+/* section {
+    
+ 
+} */
+.dui p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img img{
+    height: 140px;
+    margin-top: 50px;
+    position :absolute;
+    left: 24rem;
+}
+.dui h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.dui h3{
+    font-size: 1.4rem;
+    font-family: arial;
+    color: rgb(154, 0, 0) ;
+    padding-bottom: 14px;
+}
+.note{
+    border-right:1px solid black ;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    margin-left: 250px;
+    background-color:  rgb(154, 0, 0);
+    color: white;
+    padding-top: 10px;
+}
+.dui img{
+    width: 280px;
+    height:2px ;
+    margin-left: 160px;
+}
+.blog{
+    display: flex;
+}
+section{
+   
+      margin-top: 100px;
+        padding-bottom: 60px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+}
+.law h2{
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+}
+.law p{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.law{
+    padding-left: 20px;
+}
+.law img{
+     width: 280px;
+    height:2px ;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+}
+.law-pic img{
+    height: 120px;
+    margin-top: 30px;
+
+}
+.blog{
+    padding-bottom: 30px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-bottom: 1px solid black;
+}
+.cred img{
+    height: 125px;
+}
+.cred{
+    display: flex;
+    gap: 20px;
+}
+.cred-t h2{
+    font-size: 1.7rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.cred-t p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.btn3{
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+    padding-left: 8px;
+}
+.cred-t img{
+    margin-left: 40px;
+     width: 280px;
+    height:2px ;
+
+}
+.cre{
+    padding-left: 121px;
+        padding-top: 2rem;
+}
+section{
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+span{
+    color:rgb(154, 0, 0) ;
+
+}
+.side1 img{
+    position: absolute;
+    height: 80px;
+    width: 15px;
+    margin-top: 0px;
+    
+   
+    /* margin-top: 0px; */
+}
+.side1{
+    height: 80px;
+    width: 310px;
+    border: 1px solid black;
+    background-color: grey;
+    margin-bottom: 19px;
+}
+.side1 h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-bottom: 17px;
+    color: white;
+}
+.side1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 160px;
+    font-size: 1.1rem;
+    color: white;
+}
+.side{
+    margin-left: 60px;
+    padding-bottom: 0px;
+}
+.side h1{
+    font-size: 1.7rem;
+    margin-left: 0px;
+}
+.last{
+    display: flex;
+}
+.right1 img{
+    height: 2px;
+    width: 200px;
+}
+.right1 button{
+    height: 30px;
+    width: 140px;
+    margin-left: 60px;
+    margin-top: 0px;
+    background-color: rgb(154, 0, 0)  ;
+    color: white;
+    
+}
+.para p{
+    font-size: 1.3rem;
+    color: rgb(36, 31, 31);
+}
+.para{
+    padding: 70px;
+    padding-top: 0px;
+}
+.para h1{
+    margin-bottom: 20px;
+}
+.right1 h2{
+    font-size: 1.7rem;
+    padding-bottom: 5px;
+    color: rgb(55, 53, 53);
+}
+.right1 p{
+    font-size: 1.3rem;
+}
+.right1{
+    padding-right: 45px;
+    padding-bottom: 40px;
+}
+.logo{
+    height: 160px;
+    margin-left: 20px;
+}
+.logo1{
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.follow{
+   margin-top: 20px;
+   margin-left: 20px;
+font-size: 1.9rem;
+}
+.icon img{
+    height: 45px;
+    margin-right: 15px;
+}
+.bullet{
+    width: 100%;
+}
+.last{
+    padding-top: 45px;
+}
+.hr{
+    height: 10px;
+    width: 100%;
+}
+.btn2 img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    left: 5px;
+    top: 1px;
+}
+.btn img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:45px ;
+    bottom: 15px;
+}
+.btn3 img{
+    height:15px;
+    width: 15px;
+    position: relative;
+    right:25px ;
+    top: 1px;
+}
+.clk img{
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+.side1 h3 img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+h2{
+    color: rgb(55, 53, 53);
+}
+.icon{
+    padding-bottom: 80px;
+}
+    
+    
+    
+}
+
 
 @media (max-width: 992px) {
-     html , body{
+
+
+    html , body{
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
