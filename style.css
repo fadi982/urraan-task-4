@@ -13,7 +13,8 @@ body {
 
 header {
     display: flex;
-    gap: 203px;
+    gap: 528px;
+    width: 100%;
 }
 
 .text {
@@ -38,7 +39,11 @@ header {
 }
 
 header img {
-    height: 175px;
+    width: 129%;
+}
+.image{
+
+    width: 100%;
 }
 
 nav {
@@ -61,14 +66,15 @@ a {
 }
 
 .image img {
-    height: 450px;
+    width: 100%;
 }
 
 .sec {
+    width: 100%;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 0px;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .form {
@@ -76,7 +82,7 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 667px;
+    width: 100%;
 }
 
 strong {
@@ -499,7 +505,7 @@ h2 {
     padding-bottom: 80px;
 }
 
-@media (max-width:1440px){
+@media (max-width:1400px){
      body {
         height: 100%;
         border: 30px solid grey;
@@ -512,36 +518,124 @@ h2 {
 
     header {
         display: flex;
-        gap: 170px;
+        gap: 100px;
     }
+    header img{
+        width: 230%;
+    }
+
+    .image img {
+    width: 100%;
+}
+.text {
+    margin-top: 25px;
+    width: 100%;
+    padding-left: 37%;
+}
+.top{
+    padding-top: 0%;
+}
 
     .form {
     background-image: url(./img/form_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 582px;
+    width: 100%;
+}
+
+.form p {
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.btn1 {
+    background-color: rgb(154, 0, 0);
+    height: 30px;
+    width: 220px;
+    /* margin-top: 40px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-left: 295px; */
+    margin-bottom: 0px;
+    font-size: 1rem;
 }
 textarea {
-    width: 500px;
-    height: 80px;
-    margin-top: 20px;
+    width: 480px;
+    height: 55px;
+    margin-top: -8px;
     margin-left: 40px;
 }
 .conf img {
-    /* position: absolute; */
-    /* top: 450px; */
-    /* right: 130px; */
+    position: absolute; 
+   
+    right: 91px; 
     margin-left: 10px;
     margin-top: 30px;
-    width: 192px;
+    width: 142px;
     transform: rotate(20deg);
     opacity: 0.9;
 }
 .cre {
     padding-left: 4px;
 }
-    
+.pri
+
+ {
+    display: flex;
+    padding-top: 7px;
+    gap: 27px;
+}
+
+section {
+    margin-top: 100px;
+    padding-bottom: 60px;
+    width: 100%;
+            padding-left: 0%;
+}
+
+.img img {
+    height: 140px;
+    margin-top: 50px;
+    position: absolute;
+    left: 18rem;
+}
+
+.blog {
+    padding-bottom: 30px;
+    border-right: 1px solid black;
+    padding-right: 13px;
+    padding-left: 0px;
+    border-bottom: 1px solid black;
+}
+
+.dui p
+
+ {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 183%;
+}
+
+
+.dui{
+    width: 33%;
+
+}
+    .cre {
+        width: 33%;
+        padding-left: 32px;
+    }
+    .sec2{
+        width: 33%;
+
+    }
+    .law-pic img {
+    height: 61px;
+    margin-top: 33px;
+    margin-left: -5rem;
+}
 
 }
 
@@ -560,7 +654,21 @@ textarea {
 
     header {
         display: flex;
-        gap: 3px;
+        gap: 0px;
+        width: 100%;
+    }
+
+        .top {
+        padding-top: 0%;
+        width: 100%;
+    }
+
+        header img
+        {
+        width: 266%;
+    }
+    .image{
+        width: 100%;
     }
 
     .text {
@@ -589,7 +697,13 @@ textarea {
     }
 
     header img {
-        height: 135px;
+        width: 200%;
+    }
+        .img img {
+        height: 140px;
+        margin-top: 50px;
+        position: absolute;
+        left: 20rem;
     }
 
     nav {
@@ -602,7 +716,7 @@ textarea {
         gap: 35px;
         padding-right: 35px;
         padding-top: 25px;
-        width: 71.3rem;
+        width: 61.3rem;
     }
 
     a {
@@ -611,15 +725,17 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
 
     }
+    .image{
+        width: 49%;
+    }
 
     .image img {
-        height: 429px;
-        width: 539px;
-        margin-left: -1rem;
+        
+        margin-left: 1rem;
     }
     .image img {
-            height: 385px;
-        width: 527px;
+            
+        width: 100%;
 }
 textarea {
            width: 437px;
@@ -639,7 +755,7 @@ textarea {
     font-size: 0.7rem;
 }
 .form p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-left: 30px;
     padding-top: 10px;
 }
@@ -658,14 +774,15 @@ textarea {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 507px;
-        height: 386px;
+        width: 50%;
+       
     }
     .sec {
         padding-top: 30px;
-        padding-left: 30px;
+        padding-left: 0px;
         display: flex;
-        gap: 20px;
+        gap: 25px;
+        width: 100%;
     }
 
     .form {
@@ -673,8 +790,10 @@ textarea {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 535px;
+        width: 48%;
     }
+
+   
 
     strong {
         color: blue;
@@ -693,18 +812,21 @@ textarea {
     }
 
     .form p {
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-left: 30px;
-        padding-top: 10px;
+        padding-top: 0px;
     }
 
     form {
         display: flex;
-        margin-top: 20px;
+        margin-top: 10px;
         gap: 10px;
-        font-size: 0.9rem;
+        font-size: 0.4rem;
         font-family: Arial, Helvetica, sans-serif;
         padding-left: 20px;
+    }
+    .input{
+        width: 20%;
     }
 
     .pri {
@@ -720,31 +842,32 @@ textarea {
     }
 
     .name h2 {
-        padding-bottom: 14px;
+             padding-bottom: 31px;
+        font-size: 155%;
     }
 
     textarea {
-              width: 437px;
-        height: 50px;
+              width: 373px;
+        height: 40px;
         margin-top: -9px;
         margin-left: 40px;
     }
 
     .btn1 {
         background-color: rgb(154, 0, 0);
-        height: 37px;
-        width: 254px;
+        height: 21px;
+        width: 167px;
         /* margin-top: 40px; */
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         /* margin-left: 295px; */
-        margin-bottom: 10px;
-        font-size: 1.1rem;
+        margin-bottom: 6px;
+       
     }
 
     .pri p {
         color: grey;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .note {
@@ -755,9 +878,9 @@ textarea {
         /* position: absolute; */
         /* top: 450px; */
         /* right: 130px; */
-        margin-left: 8px;
+       padding-left: 30px;
         margin-top: 49px;
-        width: 130px;
+        width: 132px;
         transform: rotate(20deg);
         opacity: 0.9;
     }
@@ -853,9 +976,9 @@ textarea {
     }
 
     .law-pic img {
-        height: 120px;
+        height: 56px;
         margin-top: 30px;
-
+        padding-left: 157%;
     }
 
     .blog {
@@ -864,7 +987,7 @@ textarea {
         padding-right: 25px;
         padding-left: 25px;
         border-bottom: 1px solid black;
-        width: 609px;
+        width: 281%;
     }
 
     .cred img {
@@ -1094,6 +1217,7 @@ textarea {
 
     h2 {
         color: rgb(55, 53, 53);
+        font-size: 101%;
     }
 
     .icon {
@@ -1115,11 +1239,12 @@ textarea {
     }
 
     header {
-        gap: 220px;
+        gap: 0px;
     }
 
     header img {
-        height: 100px;
+        height: 128px;
+        width: 200%;
     }
 
     .text {
@@ -1150,6 +1275,14 @@ textarea {
         padding-top: 20px;
     }
 
+    .sec {
+    padding-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
     a {
         text-decoration: none;
         color: white;
@@ -1165,6 +1298,7 @@ textarea {
         .cre {
         padding-left: 901px;
         padding-top: 2rem;
+        width: 126%;
     }
 
     section {
@@ -1209,7 +1343,9 @@ textarea {
     .sec {
         display: flex;
         flex-direction: row;
-        margin-left: 1rem;
+        margin-left: 0rem;
+        gap: 4%;
+        padding-left: 0%;
     }
         .side {
         margin-left: 170px;
@@ -1251,18 +1387,19 @@ textarea {
         background-color: rgb(154, 0, 0);
         padding: 10px;
         color: white;
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
 
     .form p {
         font-size: 0.9rem;
         padding-left: 15px;
-        padding-top: 5px;
+        padding-top: 3%;
+                margin-top: -4%;
     }
 
     form {
         /* display: flex; */
-        margin-top: 20px;
+        margin-top: 5px;
         gap: 10px;
         font-size: 0.9rem;
         font-family: Arial, Helvetica, sans-serif;
@@ -1270,14 +1407,38 @@ textarea {
         width: 650px;
     }
 
+        h2 {
+        color: rgb(55, 53, 53);
+        font-size: 66%;
+    }
+
     .form {
         background-image: url(./img/form_bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 418px;
-        height: 350px;
+        width: 46%;
+       
+        
     }
+
+        .note {
+        border-right: 1px solid black;
+        width: 150%;
+    }
+        .cred img
+        {
+        height: 176px;
+    }
+
+        .cred-t p {
+        font-size: 1.6rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 20px;
+        
+    }
+       
+    
 
     .pri {
         /* display: flex; */
@@ -1297,11 +1458,14 @@ textarea {
     }
 
     textarea {
-        width: 250px;
-        height: 60px;
-        margin-top: 20px;
+        width: 290px;
+        height: 32px;
+        margin-top: -7px;
         margin-left: 40px;
     }
+
+   
+        
 
     textarea::placeholder {
         font-size: 10px;
@@ -1309,9 +1473,9 @@ textarea {
 
     .btn1 {
         background-color: rgb(154, 0, 0);
-        height: 30px;
-        width: 160px;
-        /* margin-top: 40px; */
+        height: 18px;
+        width: 129px;
+        margin-top: -12px;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         /* margin-left: 295px; */
@@ -1329,8 +1493,8 @@ textarea {
     }
 
     .image img {
-        height: 350px;
-        width: 450px;
+       
+        width: 100%;
 
 
     }
@@ -1359,11 +1523,11 @@ textarea {
     }
 
     .conf img {
-        /* position: absolute; */
-        /* top: 350px; */
-        /* right: 80px; */
-        /* width: 100px; */
-        margin-top: 20px;
+        position: absolute; 
+       
+         right: 39px;
+         
+        margin-top: 27px;
         width: 110px;
         transform: rotate(20deg);
         opacity: 0.9;
@@ -1440,7 +1604,7 @@ textarea {
         display: flex;
         justify-content: end;
         gap: 25px;
-        padding-right: 4px;
+        padding-right: 14px;
         padding-top: 17px;
         width: 716px;
     }
@@ -1473,6 +1637,10 @@ textarea {
 
     .dui p {
         font-size: 25px;
+        width: 150%;
+    }
+    .image{
+        width: 50%;
     }
 
     .img img {
@@ -1511,9 +1679,9 @@ textarea {
     }
 
     .form p {
-        font-size: 1.4rem;
-        padding-left: 30px;
-        padding-top: 10px;
+        font-size: 1.2rem;
+        padding-left: 82px;
+        padding-top: 16px;
     }
 
     form {
@@ -1532,7 +1700,7 @@ textarea {
         background-repeat: no-repeat;
         background-size: cover;
         width: 650px;
-                margin-left: -1rem;
+                margin-left: 2rem;
     }
 
     .pri {
@@ -1578,9 +1746,20 @@ textarea {
 
     .image img {
         width: 650px;
-        margin-left: -1.1rem;
+        margin-left: 1.9rem;
 
 
+    }
+        .law-pic img {
+        height: 75px;
+        margin-top: 30px;
+        padding-left: 329%;
+    }
+
+
+    .sec2 {
+        
+        margin-left: -10%;
     }
 
     .law h2 {
@@ -1675,11 +1854,13 @@ textarea {
     }
 
     .conf img {
-
-        width: 200px;
+        width: 177px;
         transform: rotate(13deg);
         opacity: 0.9;
+        margin-top: 3%;
+        margin-right: 25%;
     }
+
     .logo {
             height: 160px;
         margin-left: 110px;
@@ -1707,7 +1888,7 @@ textarea {
         padding-left: 49px;
         border-bottom: 1px solid black;
         width: 583px;
-        margin-left: 4rem;
+        margin-left: 8rem;
         border-left: 1px solid black;
     }
     .im {
@@ -1841,16 +2022,16 @@ textarea {
         background-repeat: no-repeat;
         background-size: cover;
         width: 500px;
-        margin-left: -1rem;
+        margin-left: 0rem;
     }
         .blog {
         padding-bottom: 26px;
         border-right: 1px solid black;
-        padding-right: 48px;
-        padding-left: 49px;
+        padding-right: 65px;
+        padding-left: 1px;
         border-bottom: 1px solid black;
-        width: 583px;
-        margin-left: 1rem;
+        width: 439px;
+        margin-left: 5rem;
         border-left: 1px solid black;
     }
 
@@ -1897,7 +2078,7 @@ textarea {
 
     .image img {
         width: 500px;
-        margin-left: -16px;
+        margin-left: -2px;
 
 
     }
@@ -1923,6 +2104,7 @@ textarea {
         padding-top: 40px;
         padding-left: 768px;
         padding-bottom: 40px;
+        width: 182%;
     }
 
     .cred-t h2 {
@@ -1938,8 +2120,8 @@ textarea {
     }
 
     .law-pic img {
-       height: 81px;
-        margin-left: -35px;
+       height: 56px;
+        margin-left: -67px;
         margin-top: 31px;
     }
 
@@ -1992,6 +2174,8 @@ textarea {
         width: 150px;
         transform: rotate(13deg);
         opacity: 0.9;
+                margin-right: 8%;
+        margin-top: 6%;
     }
 
     .right1 h2 {
@@ -2045,5 +2229,4 @@ textarea {
         margin-left: 1rem;
     }
     
-
 }
