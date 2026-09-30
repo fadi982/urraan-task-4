@@ -3,66 +3,57 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
 body {
     height: 100%;
     border: 30px solid grey;
     border-top: 0px;
     /* border-bottom: 0px; */
 }
-
 header {
     display: flex;
     gap: 528px;
     width: 100%;
 }
-
 .text {
     margin-top: 25px;
 }
-
 .text h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
 }
-
 .text h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(154, 0, 0);
     font-size: 1.9rem;
 }
-
 .text h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
     font-size: 1.5rem;
 }
-
 header img {
     width: 129%;
 }
-.image{
-
+.image {
     width: 100%;
 }
-
 nav {
     background-color: rgb(154, 0, 0);
     height: 70px;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: end;
-    gap: 35px;
+    gap: 57px;
     padding-right: 35px;
     padding-top: 25px;
+    padding-left: 313px;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .image img {
@@ -505,14 +496,16 @@ h2 {
     padding-bottom: 80px;
 }
 
-@media (max-width:1400px){
-     body {
+@media (max-width:1400px) {
+    body {
         height: 100%;
         border: 30px solid grey;
         border-top: 0px;
         /* border-bottom: 0px; */
     }
-    html,body{
+
+    html,
+    body {
         overflow-x: hidden;
     }
 
@@ -520,122 +513,144 @@ h2 {
         display: flex;
         gap: 100px;
     }
-    header img{
+
+    header img {
         width: 230%;
     }
 
     .image img {
-    width: 100%;
-}
-.text {
-    margin-top: 25px;
-    width: 100%;
-    padding-left: 37%;
-}
-.top{
-    padding-top: 0%;
-}
+        width: 100%;
+    }
+
+    .text {
+        margin-top: 25px;
+        width: 100%;
+        padding-left: 37%;
+    }
+
+    .top {
+        padding-top: 0%;
+    }
 
     .form {
-    background-image: url(./img/form_bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+        background-image: url(./img/form_bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .form p {
+        font-size: 1rem;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .btn1 {
+        background-color: rgb(154, 0, 0);
+        height: 30px;
+        width: 220px;
+        /* margin-top: 40px; */
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-left: 295px; */
+        margin-bottom: 0px;
+        font-size: 1rem;
+    }
+
+    textarea {
+        width: 480px;
+        height: 55px;
+        margin-top: -8px;
+        margin-left: 40px;
+    }
+
+    .conf img {
+        position: absolute;
+
+        right: 91px;
+        margin-left: 10px;
+        margin-top: 30px;
+        width: 142px;
+        transform: rotate(20deg);
+        opacity: 0.9;
+    }
+
+    .cre {
+        padding-left: 4px;
+    }
+
+    .pri {
+        display: flex;
+        padding-top: 7px;
+        gap: 27px;
+    }
+
+    section {
+        margin-top: 100px;
+        padding-bottom: 60px;
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .img img {
+        height: 138px;
+        margin-top: 114px;
+        position: absolute;
+        left: 20rem;
+    }
+
+    .blog {
+        padding-bottom: 30px;
+        border-right: 1px solid black;
+        padding-right: 13px;
+        padding-left: 0px;
+        border-bottom: 1px solid black;
+    }
+
+    .dui h3 {
+    font-size: 1.4rem;
+    font-family: arial;
+    color: rgb(154, 0, 0);
+    padding-bottom: 14px;
+    width: 200%;
 }
 
-.form p {
-    font-size: 1rem;
-    padding-left: 30px;
-    padding-top: 10px;
+.dui h2 {
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 10px;
+    width: 196%;
 }
 
-.btn1 {
-    background-color: rgb(154, 0, 0);
-    height: 30px;
-    width: 220px;
-    /* margin-top: 40px; */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    /* margin-left: 295px; */
-    margin-bottom: 0px;
-    font-size: 1rem;
-}
-textarea {
-    width: 480px;
-    height: 55px;
-    margin-top: -8px;
-    margin-left: 40px;
-}
-.conf img {
-    position: absolute; 
-   
-    right: 91px; 
-    margin-left: 10px;
-    margin-top: 30px;
-    width: 142px;
-    transform: rotate(20deg);
-    opacity: 0.9;
-}
-.cre {
-    padding-left: 4px;
-}
-.pri
-
- {
-    display: flex;
-    padding-top: 7px;
-    gap: 27px;
-}
-
-section {
-    margin-top: 100px;
-    padding-bottom: 60px;
-    width: 100%;
-            padding-left: 0%;
-}
-
-.img img {
-    height: 140px;
-    margin-top: 50px;
-    position: absolute;
-    left: 18rem;
-}
-
-.blog {
-    padding-bottom: 30px;
-    border-right: 1px solid black;
-    padding-right: 13px;
-    padding-left: 0px;
-    border-bottom: 1px solid black;
-}
-
-.dui p
-
- {
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 183%;
-}
+    .dui p {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 192%;
+    }
 
 
-.dui{
-    width: 33%;
+    .dui {
+        width: 33%;
+        padding-left: 4px;
 
-}
+    }
+
     .cre {
         width: 33%;
         padding-left: 32px;
     }
-    .sec2{
+
+    .sec2 {
         width: 33%;
 
     }
+
     .law-pic img {
-    height: 61px;
-    margin-top: 33px;
-    margin-left: -5rem;
-}
+        height: 61px;
+        margin-top: 33px;
+        margin-left: -5rem;
+    }
 
 }
 
@@ -648,7 +663,9 @@ section {
         border-top: 0px;
         /* border-bottom: 0px; */
     }
-    html,body{
+
+    html,
+    body {
         overflow-x: hidden;
     }
 
@@ -658,26 +675,27 @@ section {
         width: 100%;
     }
 
-        .top {
+    .top {
         padding-top: 0%;
         width: 100%;
     }
 
-        header img
-        {
+    header img {
         width: 266%;
     }
-    .image{
+
+    .image {
         width: 100%;
     }
 
     .text {
         margin-top: 25px;
     }
+
     .text h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-}
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+    }
 
     .text h1 {
         font-family: Arial, Helvetica, sans-serif;
@@ -699,7 +717,8 @@ section {
     header img {
         width: 200%;
     }
-        .img img {
+
+    .img img {
         height: 140px;
         margin-top: 50px;
         position: absolute;
@@ -714,9 +733,9 @@ section {
         display: flex;
         justify-content: end;
         gap: 35px;
-        padding-right: 35px;
+        padding-left: 101px;
         padding-top: 25px;
-        width: 61.3rem;
+        width: 71.3rem;
     }
 
     a {
@@ -725,58 +744,66 @@ section {
         font-family: Arial, Helvetica, sans-serif;
 
     }
-    .image{
+
+    .image {
         width: 49%;
     }
 
     .image img {
-        
+
         margin-left: 1rem;
     }
+
     .image img {
-            
+
         width: 100%;
-}
-textarea {
-           width: 437px;
+    }
+
+    textarea {
+        width: 437px;
         height: 50px;
         margin-top: -9px;
         margin-left: 40px;
-}
-.btn1 {
-    background-color: rgb(154, 0, 0);
-    height: 30px;
-    width: 153px;
-    /* margin-top: 40px; */
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    /* margin-left: 295px; */
-    margin-bottom: 10px;
-    font-size: 0.7rem;
-}
-.form p {
-    font-size: 1rem;
-    padding-left: 30px;
-    padding-top: 10px;
-}
-.conf img {
-    /* position: absolute; */
-    /* top: 450px; */
-    /* right: 130px; */
-    margin-left: 10px;
-    margin-top: 30px;
-    width: 123px;
-    transform: rotate(20deg);
-    opacity: 0.9;
-}
+    }
 
-           .form{ background-image: url(./img/form_bg.jpg);
+    .btn1 {
+        background-color: rgb(154, 0, 0);
+        height: 30px;
+        width: 153px;
+        /* margin-top: 40px; */
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin-left: 295px; */
+        margin-bottom: 10px;
+        font-size: 0.7rem;
+    }
+
+    .form p {
+        font-size: 1rem;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    .conf img {
+        /* position: absolute; */
+        /* top: 450px; */
+        /* right: 130px; */
+        margin-left: 10px;
+        margin-top: 30px;
+        width: 123px;
+        transform: rotate(20deg);
+        opacity: 0.9;
+    }
+
+    .form {
+        background-image: url(./img/form_bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 50%;
-       
+
     }
+
     .sec {
         padding-top: 30px;
         padding-left: 0px;
@@ -793,7 +820,7 @@ textarea {
         width: 48%;
     }
 
-   
+
 
     strong {
         color: blue;
@@ -825,7 +852,8 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
         padding-left: 20px;
     }
-    .input{
+
+    .input {
         width: 20%;
     }
 
@@ -842,12 +870,12 @@ textarea {
     }
 
     .name h2 {
-             padding-bottom: 31px;
+        padding-bottom: 31px;
         font-size: 155%;
     }
 
     textarea {
-              width: 373px;
+        width: 373px;
         height: 40px;
         margin-top: -9px;
         margin-left: 40px;
@@ -862,7 +890,7 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
         /* margin-left: 295px; */
         margin-bottom: 6px;
-       
+
     }
 
     .pri p {
@@ -878,17 +906,18 @@ textarea {
         /* position: absolute; */
         /* top: 450px; */
         /* right: 130px; */
-       padding-left: 30px;
+        padding-left: 30px;
         margin-top: 49px;
         width: 132px;
         transform: rotate(20deg);
         opacity: 0.9;
     }
+
     .cre {
-    padding-left: 22px;
-    padding-top: 29rem;
-    margin-left: -43rem;
-}
+        padding-left: 22px;
+        padding-top: 29rem;
+        margin-left: -43rem;
+    }
 
     /* section {
     
@@ -899,7 +928,7 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
     }
 
-   
+
 
     .dui h2 {
         font-size: 2rem;
@@ -977,9 +1006,15 @@ textarea {
 
     .law-pic img {
         height: 56px;
-        margin-top: 30px;
-        padding-left: 157%;
+        margin-top: 60px;
+        padding-left: 300%;
     }
+
+    .law-pic {
+        margin-left: 77px;
+    }
+
+
 
     .blog {
         padding-bottom: 30px;
@@ -1270,18 +1305,18 @@ textarea {
         font-size: 0.9rem;
         display: flex;
         justify-content: end;
-        gap: 41px;
-        padding-right: 227px;
+        gap: 24px;
+        padding-left: 135px;
         padding-top: 20px;
     }
 
     .sec {
-    padding-top: 30px;
-    padding-left: 30px;
-    display: flex;
-    gap: 20px;
-    width: 100%;
-}
+        padding-top: 30px;
+        padding-left: 30px;
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
 
     a {
         text-decoration: none;
@@ -1289,13 +1324,15 @@ textarea {
         font-family: Arial, Helvetica, sans-serif;
 
     }
-        .img img {
+
+    .img img {
         height: 147px;
         margin-top: 77px;
         position: absolute;
         left: 39rem;
     }
-        .cre {
+
+    .cre {
         padding-left: 901px;
         padding-top: 2rem;
         width: 126%;
@@ -1310,31 +1347,33 @@ textarea {
     .dui {
         padding-left: 184px;
     }
+
     .dui h2 {
         font-size: 3rem;
         /* font-family: Arial, Helvetica, sans-serif; */
         padding-bottom: 12px;
     }
 
-        .law h2 {
+    .law h2 {
         font-size: 3rem;
         /* font-family: Arial, Helvetica, sans-serif; */
         padding-bottom: 10px;
     }
-        .law p {
+
+    .law p {
         font-size: 1.6rem;
         font-family: Arial, Helvetica, sans-serif;
         padding-bottom: 20px;
     }
 
-        .cred-t h2 {
+    .cred-t h2 {
         font-size: 2.7rem;
         /* font-family: Arial, Helvetica, sans-serif; */
         padding-bottom: 14px;
         margin-top: 51px;
     }
 
-        .cred-t p {
+    .cred-t p {
         font-size: 1.6rem;
         font-family: Arial, Helvetica, sans-serif;
         padding-bottom: 20px;
@@ -1347,17 +1386,20 @@ textarea {
         gap: 4%;
         padding-left: 0%;
     }
-        .side {
+
+    .side {
         margin-left: 170px;
         padding-bottom: 0px;
     }
-        .side1 {
+
+    .side1 {
         height: 80px;
         width: 500px;
         border: 1px solid black;
         background-color: grey;
         margin-bottom: 19px;
     }
+
     .side1 h3 {
         font-family: Arial, Helvetica, sans-serif;
         padding-left: 334px;
@@ -1394,7 +1436,7 @@ textarea {
         font-size: 0.9rem;
         padding-left: 15px;
         padding-top: 3%;
-                margin-top: -4%;
+        margin-top: -4%;
     }
 
     form {
@@ -1407,7 +1449,7 @@ textarea {
         width: 650px;
     }
 
-        h2 {
+    h2 {
         color: rgb(55, 53, 53);
         font-size: 66%;
     }
@@ -1418,27 +1460,27 @@ textarea {
         background-repeat: no-repeat;
         background-size: cover;
         width: 46%;
-       
-        
+
+
     }
 
-        .note {
+    .note {
         border-right: 1px solid black;
         width: 150%;
     }
-        .cred img
-        {
+
+    .cred img {
         height: 176px;
     }
 
-        .cred-t p {
+    .cred-t p {
         font-size: 1.6rem;
         font-family: Arial, Helvetica, sans-serif;
         padding-bottom: 20px;
-        
+
     }
-       
-    
+
+
 
     .pri {
         /* display: flex; */
@@ -1464,8 +1506,8 @@ textarea {
         margin-left: 40px;
     }
 
-   
-        
+
+
 
     textarea::placeholder {
         font-size: 10px;
@@ -1487,13 +1529,14 @@ textarea {
         color: grey;
         font-size: 0.7rem;
     }
+
     .para p {
         font-size: 2.3rem;
         color: rgb(36, 31, 31);
     }
 
     .image img {
-       
+
         width: 100%;
 
 
@@ -1518,22 +1561,24 @@ textarea {
         padding-bottom: 5px;
         color: rgb(55, 53, 53);
     }
-        .right1 p {
+
+    .right1 p {
         font-size: 2.3rem;
     }
 
     .conf img {
-        position: absolute; 
-       
-         right: 39px;
-         
+        position: absolute;
+
+        right: 39px;
+
         margin-top: 27px;
         width: 110px;
         transform: rotate(20deg);
         opacity: 0.9;
     }
+
     .blog {
-                padding-bottom: 30px;
+        padding-bottom: 30px;
         border-right: 1px solid black;
         padding-right: 65px;
         padding-left: 88px;
@@ -1542,24 +1587,29 @@ textarea {
         margin-left: 9rem;
         border-left: 1px solid black;
     }
-        .logo {
+
+    .logo {
         height: 166px;
         margin-left: 7px;
         margin-bottom: -4rem;
     }
-        .logo1 {
+
+    .logo1 {
         height: 160px;
         margin-left: 249px;
         margin-top: -130px;
     }
-        .follow {
+
+    .follow {
         margin-top: 5px;
         margin-left: 92px;
         font-size: 1.9rem;
     }
-    .im{
+
+    .im {
         margin-left: 5rem;
     }
+
     .icon {
         padding-bottom: 80px;
         margin-left: 3rem;
@@ -1568,7 +1618,8 @@ textarea {
 
 @media (max-width: 768px) {
 
-    html,body {
+    html,
+    body {
         overflow-x: hidden;
     }
 
@@ -1597,16 +1648,17 @@ textarea {
     }
 
     nav {
-       background-color: rgb(154, 0, 0);
+        background-color: rgb(154, 0, 0);
         height: 50px;
         color: white;
         font-size: 0.8rem;
         display: flex;
         justify-content: end;
-        gap: 25px;
-        padding-right: 14px;
+        gap: 12px;
+        padding-right: 1px;
         padding-top: 17px;
-        width: 716px;
+        width: 709px;
+        padding-left: 259px;
     }
 
     a {
@@ -1639,7 +1691,8 @@ textarea {
         font-size: 25px;
         width: 150%;
     }
-    .image{
+
+    .image {
         width: 50%;
     }
 
@@ -1700,7 +1753,7 @@ textarea {
         background-repeat: no-repeat;
         background-size: cover;
         width: 650px;
-                margin-left: 2rem;
+        margin-left: 2rem;
     }
 
     .pri {
@@ -1750,15 +1803,16 @@ textarea {
 
 
     }
-        .law-pic img {
+
+    .law-pic img {
         height: 75px;
         margin-top: 30px;
-        padding-left: 329%;
+        padding-left: 145%;
     }
 
 
     .sec2 {
-        
+
         margin-left: -10%;
     }
 
@@ -1862,26 +1916,29 @@ textarea {
     }
 
     .logo {
-            height: 160px;
+        height: 160px;
         margin-left: 110px;
         margin-bottom: -4rem;
-}
+    }
+
     .logo1 {
         height: 154px;
         margin-left: 338px;
         margin-top: -180px;
     }
-        .follow {
+
+    .follow {
         margin-top: 20px;
         margin-left: 179px;
         font-size: 1.9rem;
     }
-        .icon {
+
+    .icon {
         padding-bottom: 73px;
         padding-left: 10rem;
     }
 
-        .blog {
+    .blog {
         padding-bottom: 26px;
         border-right: 1px solid black;
         padding-right: 48px;
@@ -1891,6 +1948,7 @@ textarea {
         margin-left: 8rem;
         border-left: 1px solid black;
     }
+
     .im {
         margin-left: 10rem;
     }
@@ -2024,7 +2082,8 @@ textarea {
         width: 500px;
         margin-left: 0rem;
     }
-        .blog {
+
+    .blog {
         padding-bottom: 26px;
         border-right: 1px solid black;
         padding-right: 65px;
@@ -2120,7 +2179,7 @@ textarea {
     }
 
     .law-pic img {
-       height: 56px;
+        height: 56px;
         margin-left: -67px;
         margin-top: 31px;
     }
@@ -2174,7 +2233,7 @@ textarea {
         width: 150px;
         transform: rotate(13deg);
         opacity: 0.9;
-                margin-right: 8%;
+        margin-right: 8%;
         margin-top: 6%;
     }
 
@@ -2213,20 +2272,22 @@ textarea {
 
     .icon img {
         height: 45px;
-        
+
         margin-left: -26px;
     }
 
     .right {
         padding-left: 150px;
-        
+
     }
-        .icon {
+
+    .icon {
         padding-bottom: 73px;
         padding-left: 0rem;
     }
-        .im {
+
+    .im {
         margin-left: 1rem;
     }
-    
+
 }
