@@ -265,7 +265,7 @@ section {
 }
 
 .law-pic img {
-    height: 78px;
+    height: 66px;
     margin-top: 30px;
 
 }
@@ -615,12 +615,19 @@ h2 {
         margin-left: 79px;
     }
 
+    .dui img {
+    width: 9px;
+    height: 10px;
+    margin-left: 160px;
+}
+
     .blog {
         padding-bottom: 30px;
         border-right: 1px solid black;
         padding-right: 13px;
         padding-left: 0px;
         border-bottom: 1px solid black;
+        border-left: 1px solid black
     }
 
     .dui h3 {
@@ -685,7 +692,7 @@ h2 {
     }
 
     .law-pic img {
-        height: 61px;
+        height: 41px;
         
     }
 
@@ -1075,9 +1082,9 @@ h2 {
     }
 
     .dui img {
-        width: 280px;
+       width: 175px;
         height: 2px;
-        margin-left: 160px;
+        margin-left: 154px;
     }
 
     .blog {
@@ -1095,7 +1102,7 @@ h2 {
         .btn {
         height: 33px;
         width: 135px;
-        margin-left: 67px;
+        margin-left: 169px;
         background-color: rgb(154, 0, 0);
         color: white;
         /* padding-top: 9px; */
@@ -1445,9 +1452,9 @@ h2 {
 
     .img img {
      
-       height: 95px;
+       height: 85px;
         margin-top: 77px;
-        margin-left: -68px;
+        margin-left: -79px;
        
     }
 
@@ -1471,7 +1478,7 @@ h2 {
     }
 
     .dui h2 {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         
         padding-bottom: 12px;
     }
@@ -1637,7 +1644,7 @@ h2 {
         .btn3 {
         height: 35px;
         width: 143px;
-        margin-left: 80px;
+        margin-left: 62px;
         margin-top: 0px;
         background-color: rgb(154, 0, 0);
         color: white;
@@ -1645,9 +1652,14 @@ h2 {
     }
 
         .law-pic img {
-              height: 40px;
+              height: 35px;
         margin-top: 47px;
-        margin-left: -105px;
+        margin-left: -74px;
+    }
+
+        .law img {
+               width: 7px;
+        height: 12px;
     }
 
 
@@ -1882,15 +1894,15 @@ h2 {
     }
 
     .dui h2 {
-        font-size: 21px;
+        font-size: 14px;
     }
 
     .dui h3 {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .dui p {
-        font-size: 12px;
+        font-size: 10px;
         
     }
 
@@ -1906,15 +1918,18 @@ h2 {
 
     .img img {
         
-               height: 79px;
-        margin-left: -66px;
+         height: 58px;
+        margin-left: -55px;
+        margin-top: 50px;
     }
 
         .btn {
         
         background-color: rgb(154, 0, 0);
         color: white;
-                margin-left: 60px;
+                margin-left: 37px;
+                        width: 124px;
+        height: 26px;
         
     }
 
@@ -2027,19 +2042,19 @@ h2 {
     }
 
     .law-pic img {
-                height: 31px;
-        margin-left: -121px;
+                height: 28px;
+        margin-left: -35px;
       
     }
 
         .btn2 {
-        height: 29px;
-        width: 133px;
+        height: 23px;
+        width: 118px;
        
         background-color: rgb(154, 0, 0);
         color: white;
 
-                margin-left: 67px;
+                margin-left: 39px;
     }
 
 
@@ -2050,12 +2065,12 @@ h2 {
     }
 
     .law h2 {
-        font-size: 27px;
+        font-size: 14px;
         
     }
 
     .law p {
-        font-size: 12px;
+        font-size: 10px;
   
     }
 
@@ -2081,11 +2096,11 @@ h2 {
     }
 
     .cred-t p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .cred img {
-        height: 74px;
+        height: 59px;
     }
 
         .law img {
@@ -2103,7 +2118,7 @@ h2 {
         .btn3 {
                 height: 29px;
         width: 140px;
-        margin-left: 51px;
+        margin-left: 3px;
         /* margin-top: 0px; */
         background-color: rgb(154, 0, 0);
         color: white;
